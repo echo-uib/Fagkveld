@@ -28,7 +28,10 @@
 }
 
 .top-button {
-  padding: 35px;
+  height: 45px;
+  padding-left: 35px;
+  padding-right: 35px;
+
   cursor: pointer;
   border-bottom: 3px solid #555555;
 }

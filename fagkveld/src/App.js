@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import MainContainer from './MainContainer';
+import TopInfoBox from './TopInfoBox';
 import data from './bidrag.js';
 import './App.css';
 
