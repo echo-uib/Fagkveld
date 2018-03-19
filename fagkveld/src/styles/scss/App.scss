@@ -1,0 +1,48 @@
+//@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,300,400);
+
+$lato: 'Lato', sans-serif;
+$palanquin: 'Palanquin', sans-serif;
+$raleway: 'Raleway', sans-serif;
+
+.app {
+  text-align: center;
+}
+
+.header {
+  background-color: #FFFFFF;
+  height: 50px;
+  padding: 20px;
+}
+
+%font-style {
+  font-family: $raleway;
+  font-weight: 200;
+  line-height: 1.875;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  @extend %font-style;
+}
+
+.top-info-box {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 300px;
+
+  > p {
+    width: 60%;
+  }
+}
+
+h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 4em;
+}

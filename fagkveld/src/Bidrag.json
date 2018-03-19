@@ -1,15 +1,11 @@
 {
-  "workshops1": [
-
-  ],
-  "workshops2": [
-    
-  ],
+  "workshops1": [],
+  "workshops2": [],
   "foredrag": [
     {
       "tittel": "Maskinlæring",
       "foredragsholder": "Morten Øvrebø, BEKK",
-      "lengde": 30,
+      "lengde": 30
     }
-  ],
+  ]
 }
