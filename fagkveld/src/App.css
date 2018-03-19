@@ -1,9 +1,5 @@
 .app {
-  text-align: center;
-}
-
-.header {
-  background-color: #FFFFFF;
-  height: 50px;
-  padding: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  min-height: 500px;
 }
