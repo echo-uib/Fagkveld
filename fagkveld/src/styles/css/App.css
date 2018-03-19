@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,300,400);
+.app {
+  text-align: center; }
+
+.header {
+  background-color: #FFFFFF;
+  height: 50px;
+  padding: 20px; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  line-height: 1.875; }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black; }
+
+.top-info-box {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  height: 300px; }
+  .top-info-box > p {
+    width: 60%; }
+
+h1 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 4em; }
+
+/*# sourceMappingURL=App.css.map */
