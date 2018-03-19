@@ -4,3 +4,13 @@ body {
   font-family: sans-serif;
   background-color: black;
 }
+
+.top-info-box {
+  background-color: black;
+  color: white;
+  height: 300px;
+}
+
+h1 {
+  margin-top: 0;
+}

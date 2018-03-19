@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import TopInfoBox from './TopInfoBox';
 
 class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="header">
-          <p> TEST </p>
-        </header>
+        <TopInfoBox />
       </div>
     );
   }
