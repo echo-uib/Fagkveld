@@ -9,12 +9,6 @@ $raleway: 'Raleway', sans-serif;
   text-align: center;
 }
 
-.header {
-  background-color: #FFFFFF;
-  height: 50px;
-  padding: 20px;
-}
-
 %font-style {
   font-family: $raleway;
   font-weight: 200;
@@ -34,7 +28,6 @@ body {
   flex-direction: column;
   align-items: center;
   color: white;
-  height: 300px;
 
   > p {
     width: 60%;
