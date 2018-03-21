@@ -19,6 +19,8 @@ class MainContainer extends Component {
           onClick={ clicked => this.setState({ selected: clicked }) }
           selected={ this.state.selected }
         />
+
+        { foredragCards }
       </div>
     );
   }
