@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TopButtons from './TopButtons';
-import ForedragCard from './ForedragCard';
+import EventCard from './EventCard';
 import './MainContainer.css';
 
 class MainContainer extends Component {
@@ -11,7 +11,7 @@ class MainContainer extends Component {
 
   render() {
     const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
-    const foredragCards = foredrag.map(f => <ForedragCard foredrag={f} type="foredrag" key={f.tittel} />);
+    const eventCards = foredrag.map(f => <EventCard event={f} type="foredrag" key={f.tittel} />);
 
     return (
       <div className='main-container'>

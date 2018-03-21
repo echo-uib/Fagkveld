@@ -10,6 +10,9 @@ const data = {
       "tittel": "Maskinlæring",
       "foredragsholder": "Morten Øvrebø, BEKK",
       "lengde": 30,
+      "info": "Placeholder tekst med info om foredraget.",
+      "klokkeslett": "17.15 - 19.00",
+
     }
   ],
 };

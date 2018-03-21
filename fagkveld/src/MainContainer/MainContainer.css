@@ -45,7 +45,13 @@
   border-bottom: 3px solid orange;
 }
 
-.foredrag-card {
-  min-height: 200px;
+.event-card {
+  min-height: 50px;
   background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-info {
+  color: #777777;
 }
