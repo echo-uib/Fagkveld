@@ -1,0 +1,38 @@
+.event-card {
+    width: 100%;
+    /* min-height: 50px; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.event-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.event-card-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.event-card-title-text {
+  font-size: 1.17em;
+  font-weight: 300;
+
+}
+
+.event-card-title-author {
+    margin-top: 4px;
+    margin-left: 8px;
+}
+
+.event-info {
+  color: gray;
+}
+
+p {
+  margin: 0;
+}

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import TopButtons from './TopButtons';
 import EventCard from './EventCard';
-import './MainContainer.css';
+import './styles/MainContainer.css';
+import './styles/EventCard.css';
 
 class MainContainer extends Component {
   constructor(props) {
@@ -20,7 +21,7 @@ class MainContainer extends Component {
           selected={this.state.selected}
         />
 
-        { eventCards }
+        {eventCards}
       </div>
     );
   }

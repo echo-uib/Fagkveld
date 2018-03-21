@@ -18,10 +18,14 @@ class EventCard extends Component {
     return (
       <div className='event-card'>
         {timeLabel}
-        <h3> {tittel} </h3>
-        <p> {foredragsholder} </p>
-        <p className='event-info'> {info} </p>
-        {påmelding}
+        <div className='event-card-content'>
+          <div className='event-card-title'>
+            <p className='event-card-title-text'> {tittel} </p>
+            <p className='event-card-title-author'> {foredragsholder} </p>
+          </div>
+          <p className='event-info'> {info} </p>
+          {påmelding}
+        </div>
       </div>
     );
   }
