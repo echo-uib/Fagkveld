@@ -11,7 +11,10 @@ class MainContainer extends Component {
 
   render() {
     const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
-    const eventCards = foredrag.map(f => <EventCard event={f} type="foredrag" key={f.tittel} />);
+    const workshops = this.props.data.workshops ? this.props.data.workshops : [];
+    const eventCards = this.state.selected === 'FOREDRAG'
+      ? foredrag.map(f => <EventCard event={f} type="foredrag" key={f.tittel} />)
+      : workshops.map(w => <EventCard event={w} type="workshop" key={w.tittel} />);
 
     return (
       <div className='main-container'>

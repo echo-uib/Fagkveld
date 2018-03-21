@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TimeLabel from './TimeLabel';
 
 class EventCard extends Component {
 
@@ -12,7 +13,7 @@ class EventCard extends Component {
     const icon = type === 'foredrag' ? 'comments' : 'cogs';
     const info = event.info;
 
-    const timeLabel = null // event.klokkeslett ? <TimeLabel icon={icon} klokkeslett={klokkeslett} /> : null;
+    const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
     const påmelding = null
 
     return (
