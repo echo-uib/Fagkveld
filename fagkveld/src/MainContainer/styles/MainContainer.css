@@ -7,7 +7,9 @@
   color: black;
 
   min-height: 1200px;
-  padding: 5%
+  padding: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .button-container {
@@ -42,4 +44,16 @@
 
 .button-selected {
   border-bottom: 3px solid orange;
+}
+
+.time-label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: -35px;
+}
+
+.time-label-text {
+  margin: 0;
+  margin-left: 15px;
 }
