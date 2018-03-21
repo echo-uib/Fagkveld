@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class EventCard extends Component {
 
   render() {
-    const event = this.props.data.event;
-    const type = this.props.data.type;
+    const event = this.props.event;
+    const type = this.props.type;
 
     const tittel = event.tittel;
     const klokkeslett = event.klokkeslett;

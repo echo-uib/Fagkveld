@@ -20,7 +20,7 @@ class MainContainer extends Component {
           selected={this.state.selected}
         />
 
-        { foredragCards }
+        { eventCards }
       </div>
     );
   }
