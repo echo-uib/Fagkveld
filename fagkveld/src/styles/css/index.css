@@ -21,11 +21,14 @@ body {
   align-items: center;
   color: white; }
   .top-info-box > p {
-    width: 60%; }
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 2em; }
 
 h1 {
   margin: 0;
   font-weight: 400;
-  font-size: 4em; }
+  font-size: 4em;
+  padding: 0; }
 
 /*# sourceMappingURL=index.css.map */
