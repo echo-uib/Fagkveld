@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import TopButtons from './TopButtons';
-import ForedragCard from './ForedragCard';
+import EventCard from './EventCard';
 import './MainContainer.css';
 
 class MainContainer extends Component {
@@ -9,15 +9,15 @@ class MainContainer extends Component {
     this.state = { selected: 'FOREDRAG' }
   }
 
-  render () {
+  render() {
     const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
-    const foredragCards = foredrag.map(f => <ForedragCard foredrag={f} key={f.tittel} />);
+    const eventCards = foredrag.map(f => <EventCard event={f} type="foredrag" key={f.tittel} />);
 
     return (
       <div className='main-container'>
         <TopButtons
-          onClick={ clicked => this.setState({ selected: clicked }) }
-          selected={ this.state.selected }
+          onClick={clicked => this.setState({ selected: clicked })}
+          selected={this.state.selected}
         />
 
         { foredragCards }

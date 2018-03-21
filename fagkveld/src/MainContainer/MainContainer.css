@@ -28,8 +28,8 @@
 
 .top-button {
   height: 45px;
-  padding-left: 6%;
-  padding-right: 6%;
+  padding-left: 30px;
+  padding-right: 30px;
 
   cursor: pointer;
   border-bottom: 3px solid #777777;
@@ -44,9 +44,14 @@
   border-bottom: 3px solid orange;
 }
 
-.foredrag-card {
+.event-card {
   width: 90%;
-  min-height: 200px;
+  min-height: 50px;
   background-color: red;
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-info {
+  color: #777777;
 }
