@@ -9,15 +9,15 @@ class MainContainer extends Component {
     this.state = { selected: 'FOREDRAG' }
   }
 
-  render () {
+  render() {
     const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
-    const foredragCards = foredrag.map(f => <ForedragCard foredrag={f} key={f.tittel} />);
+    const foredragCards = foredrag.map(f => <ForedragCard foredrag={f} type="foredrag" key={f.tittel} />);
 
     return (
       <div className='main-container'>
         <TopButtons
-          onClick={ clicked => this.setState({ selected: clicked }) }
-          selected={ this.state.selected }
+          onClick={clicked => this.setState({ selected: clicked })}
+          selected={this.state.selected}
         />
       </div>
     );
