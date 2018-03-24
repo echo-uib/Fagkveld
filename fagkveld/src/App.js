@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <TopInfoBox />
+        <TopInfoBox text={ data.topText } />
         <MainContainer data={data}/>
       </div>
     );
