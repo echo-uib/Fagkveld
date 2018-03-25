@@ -14,7 +14,8 @@
 
 @media (max-width: 978px) {
   .main-container {
-    padding: 10%;
+    padding-right: 8%;
+    padding-left: 8%;
   }
 }
 
@@ -34,6 +35,15 @@
   justify-content: space-between;
 }
 
+@media (max-width: 978px) {
+  .top-buttons {
+    /* flex-direction: column; */
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 20px;
+  }
+}
+
 .top-button {
   height: 45px;
   padding-left: 30px;
@@ -41,6 +51,14 @@
 
   cursor: pointer;
   border-bottom: 3px solid #777777;
+}
+
+@media (max-width: 978px) {
+  .top-button {
+    padding-left: 6px;
+    padding-right: 6px;
+
+  }
 }
 
 .top-button:hover {

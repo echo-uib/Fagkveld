@@ -8,6 +8,13 @@ $raleway: 'Raleway', sans-serif;
   text-align: center;
 }
 
+@media (max-width: 978px) {
+  .app {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 %font-style {
   font-family: $raleway;
   font-weight: 200;
