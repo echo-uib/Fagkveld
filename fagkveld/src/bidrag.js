@@ -21,7 +21,7 @@ const data = {
     {
       "tittel": "Hvordan er egentlig arbeidslivet som nyudannet?",
       "foredragsholder": "Andreas Dukstad, Sparebanken Vest",
-      "info": "Mange er ofte nervøs for å starte arbeidslivet som nyutdannet. 'Er jeg flink nok?', 'Har jeg det som trengs?'. Hvordan er egentlig arbeidslivet sammenlignet med det man lærer på skolen? Dette er en erfaringsrapport fra to utviklere som satt med nøyaktig de samme spørsmålene for kun et par år siden",
+      "info": "Mange er ofte nervøse for å starte arbeidslivet som nyutdannet. 'Er jeg flink nok?', 'Har jeg det som trengs?'. Hvordan er egentlig arbeidslivet sammenlignet med det man lærer på skolen? Dette er en erfaringsrapport fra to utviklere som satt med nøyaktig de samme spørsmålene for kun et par år siden",
       "klokkeslett": "17.15 - 17.45",
     },
   ],
