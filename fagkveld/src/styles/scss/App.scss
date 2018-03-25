@@ -41,15 +41,15 @@ body {
     width: 80%;
     margin-top: 0;
     margin-bottom: 2em;
+    text-align: center;
   }
 }
 
-// @media (max-width: 978px) {
-//   .top-info-box > p {
-//     // text-align: center;
-//     width: 96%;
-//   }
-// }
+@media (max-width: 978px) {
+  .top-info-box > p {
+    width: 96%;
+  }
+}
 
 h1 {
   margin: 0;
