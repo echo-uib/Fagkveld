@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
+}
 
 .event-card-title {
   font-size: 1.17em;
@@ -22,6 +22,9 @@
 .event-card-author {
   font-size: 14px;
   color: gray;
+  line-height: 1.375;
+  margin-top: 5px;
+  margin-bottom: 4px;
 }
 
 .event-card-info {
