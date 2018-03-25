@@ -25,9 +25,13 @@
 }
 
 .event-card-info {
-  margin-top: 10px;
-  /* color: gray; */
+  margin-top: 5px;
   line-height: 1.45em;
+}
+
+.sign-up {
+  font-size: 15px;
+  margin-top: 5px;
 }
 
 p {
