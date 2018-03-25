@@ -14,23 +14,19 @@
   }
 
 .event-card-title {
-  display: flex;
-  flex-direction: row;
-}
-
-.event-card-title-text {
   font-size: 1.17em;
   font-weight: 300;
-
 }
 
-.event-card-title-author {
-    margin-top: 4.5px;
-    margin-left: 4px;
-}
-
-.event-info {
+.event-card-author {
+  margin-top: -5px;
+  font-size: 14px;
   color: gray;
+}
+
+.event-card-info {
+  margin-top: 10px;
+  /* color: gray; */
   line-height: 1.45em;
 }
 

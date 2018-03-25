@@ -3,14 +3,14 @@ const data = {
 
   "workshops": [
     {
-      "tittel": "Lag en enkel webapp i vue.js,",
+      "tittel": "Lag en enkel webapp i vue.js",
       "foredragsholder": "Trond Svanes, Stacc",
       "info": "Dette er en workshop for deg som elsker nye teknologier. Meld deg på og bli med på en reise inn i vue-land",
       "klokkeslett": "17.15 - 19.00",
       "link": "https://goo.gl/forms/a5Hat9A698120qZt2",
     },
     {
-      "tittel": "Lag en enkel webapp i react.js,",
+      "tittel": "Lag en enkel webapp i react.js",
       "foredragsholder": "Alexander Rosbach, Computas AS",
       "info": "Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere!",
       "klokkeslett": "17.15 - 19.00",
