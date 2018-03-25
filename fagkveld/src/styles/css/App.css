@@ -27,8 +27,12 @@ body {
   .top-info-box > p {
     width: 80%;
     margin-top: 0;
-    margin-bottom: 2em; }
+    margin-bottom: 2em;
+    text-align: center; }
 
+@media (max-width: 978px) {
+  .top-info-box > p {
+    width: 96%; } }
 h1 {
   margin: 0;
   font-weight: 400;

@@ -38,6 +38,7 @@
 @media (max-width: 978px) {
   .top-buttons {
     /* flex-direction: column; */
+    justify-content: space-around;
     padding-left: 0;
     padding-right: 0;
     font-size: 20px;
