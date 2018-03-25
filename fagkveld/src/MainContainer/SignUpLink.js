@@ -4,11 +4,7 @@ import './MainContainer.css';
 class SignUpLink extends Component {
 
   render() {
-    return (
-      <div className='sign-up-link'>
-        MELD DEG PÅ
-      </div>
-    );
+    return <a href={this.props.link} target="_blank"> MELD DEG PÅ </a>
   }
 }
 

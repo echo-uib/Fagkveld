@@ -68,13 +68,13 @@
   margin-left: 15px;
 }
 
-.sign-up-link {
+a {
   color: orange;
   font-weight: 300;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.sign-up-link:hover {
+a:hover {
   font-weight: 500;
 }
