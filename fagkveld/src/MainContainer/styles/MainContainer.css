@@ -69,6 +69,7 @@
 
 .button-selected {
   border-bottom: 3px solid orange;
+  color: black;
 }
 
 .time-label {
