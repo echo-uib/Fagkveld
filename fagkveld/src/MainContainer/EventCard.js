@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TimeLabel from './TimeLabel';
+import SignUpLink from './SignUpLink';
 
 class EventCard extends Component {
 
@@ -14,7 +15,7 @@ class EventCard extends Component {
     const info = event.info;
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
-    const påmelding = null
+    const påmelding = event.link ? <SignUpLink link={ event.link } /> : null;
 
     return (
       <div className='event-card'>
