@@ -16,10 +16,10 @@
 .event-card-title {
   font-size: 1.17em;
   font-weight: 300;
+  line-height: 1.375;
 }
 
 .event-card-author {
-  margin-top: -5px;
   font-size: 14px;
   color: gray;
 }
