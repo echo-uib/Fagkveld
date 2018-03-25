@@ -1,6 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,300,400);
 .app {
-  text-align: center; }
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%; }
 
 @media (max-width: 978px) {
   .app {
