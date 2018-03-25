@@ -6,6 +6,15 @@ $raleway: 'Raleway', sans-serif;
 
 .app {
   text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+@media (max-width: 978px) {
+  .app {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
 %font-style {

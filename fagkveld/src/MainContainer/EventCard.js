@@ -15,17 +15,15 @@ class EventCard extends Component {
     const info = event.info;
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
-    const påmelding = event.link ? <SignUpLink link={ event.link } /> : null;
+    const påmelding = event.link ? <SignUpLink link={event.link} /> : null;
 
     return (
       <div className='event-card'>
         {timeLabel}
         <div className='event-card-content'>
-          <div className='event-card-title'>
-            <p className='event-card-title-text'> {tittel} </p>
-            <p className='event-card-title-author'> {foredragsholder} </p>
-          </div>
-          <p className='event-info'> {info} </p>
+          <p className='event-card-title'> {tittel} </p>
+          <p className='event-card-author'> {foredragsholder} </p>
+          <p className='event-card-info'> {info} </p>
           {påmelding}
         </div>
       </div>

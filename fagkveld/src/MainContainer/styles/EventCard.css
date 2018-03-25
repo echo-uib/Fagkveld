@@ -11,27 +11,30 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
+}
 
 .event-card-title {
-  display: flex;
-  flex-direction: row;
-}
-
-.event-card-title-text {
   font-size: 1.17em;
   font-weight: 300;
-
+  line-height: 1.375;
 }
 
-.event-card-title-author {
-    margin-top: 4.5px;
-    margin-left: 4px;
-}
-
-.event-info {
+.event-card-author {
+  font-size: 14px;
   color: gray;
+  line-height: 1.375;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.event-card-info {
+  margin-top: 5px;
   line-height: 1.45em;
+}
+
+.sign-up {
+  font-size: 15px;
+  margin-top: 5px;
 }
 
 p {
