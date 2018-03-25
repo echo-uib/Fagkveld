@@ -6,8 +6,8 @@
 
 @media (max-width: 978px) {
   .app {
-    padding-left: 5%;
-    padding-right: 5%; } }
+    padding-left: 0;
+    padding-right: 0; } }
 body {
   font-family: "Raleway", sans-serif;
   font-weight: 200;
@@ -32,14 +32,23 @@ body {
 
 @media (max-width: 978px) {
   .top-info-box > p {
-    width: 96%; } }
+    width: 85%; } }
 h1 {
   margin: 0;
+  margin-top: 35px;
   font-weight: 400;
   font-size: 4em;
-  padding: 0; }
+  padding: 0;
+  line-height: 50px; }
+
+.top-time-info {
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 0;
+  color: orange; }
 
 .top-info {
+  margin-top: 30px;
   color: #C6C6C6; }
 
 /*# sourceMappingURL=App.css.map */

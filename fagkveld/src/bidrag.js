@@ -1,5 +1,5 @@
 const data = {
-  "topText": "Velkommen til fagkveld for IT-studenter i Bergen! Fagutvalget ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer sammen med Den Norske Dataforening til en kveld fullstappet med foredrag, workshops, mat og drikke! Det blir flere parallelle spor med underholdning, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset med plasser på workshops, så meld deg på nå!",
+  "topText": "Velkommen til fagkveld for IT-studenter i Bergen! Fagutvalget ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer sammen med Den Norske Dataforening til en kveld fullstappet med foredrag, workshops, 🍕 og 🍻! Det blir flere parallelle spor med underholdning, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset med plasser på workshops, så meld deg på nå!",
 
   "workshops": [
     {
