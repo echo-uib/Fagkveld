@@ -12,7 +12,7 @@ const data = {
     {
       "tittel": "Lag en enkel webapp i react.js",
       "foredragsholder": "Alexander Rosbach, Computas AS",
-      "info": "Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere!",
+      "info": "Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere! Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere! Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere! Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere! Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere! Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere! Bygg en applikasjon i Facebook sitt eget rammeverk, React. Et absolutt must for moderne webutviklere!",
       "klokkeslett": "17.15 - 19.00",
       "link": "https://goo.gl/forms/a5Hat9A698120qZt2",
     },

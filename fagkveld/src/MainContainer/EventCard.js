@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import TimeLabel from './TimeLabel';
 import SignUpLink from './SignUpLink';
+import TextTruncate from 'react-text-truncate';
 
 class EventCard extends Component {
 
@@ -13,17 +14,27 @@ class EventCard extends Component {
     const foredragsholder = event.foredragsholder;
     const icon = type === 'foredrag' ? 'comments' : 'cogs';
     const info = event.info;
+    const lines = this.props.expand ? 0 : 2;
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
     const påmelding = event.link ? <SignUpLink link={event.link} /> : null;
+    const onClick = () => {
+      if (this.props.expand)
+        this.props.onClick({})
+      else
+        this.props.onClick(event)
+    }
 
     return (
-      <div className='event-card'>
+      <div className='event-card' onClick={onClick}>
         {timeLabel}
         <div className='event-card-content'>
           <p className='event-card-title'> {tittel} </p>
           <p className='event-card-author'> {foredragsholder} </p>
-          <p className='event-card-info'> {info} </p>
+          <TextTruncate
+            line={lines}
+            truncateText="..."
+            text={info} />
           {påmelding}
         </div>
       </div>

@@ -7,15 +7,16 @@ import './styles/EventCard.css';
 class MainContainer extends Component {
   constructor(props) {
     super(props);
-    this.state = { selected: 'FOREDRAG' }
+    this.state = { selected: 'FOREDRAG', expandedEvent: {} }
   }
 
   render() {
+    const onClick = (event) => { this.setState({expandedEvent:event}) }
     const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
     const workshops = this.props.data.workshops ? this.props.data.workshops : [];
     const eventCards = this.state.selected === 'FOREDRAG'
-      ? foredrag.map(f => <EventCard event={f} type="foredrag" key={f.tittel} />)
-      : workshops.map(w => <EventCard event={w} type="workshop" key={w.tittel} />);
+      ? foredrag.map(f => this.mapEvent(f, 'foredrag', onClick))
+      : workshops.map(w => this.mapEvent(w, 'workshop', onClick));
 
     return (
       <div className='main-container'>
@@ -27,6 +28,11 @@ class MainContainer extends Component {
         {eventCards}
       </div>
     );
+  }
+
+  mapEvent(e, type, onClick) {
+    const expand = this.state.expandedEvent === e;
+    return <EventCard event={e} type={type} key={e.tittel} expand={expand} onClick={onClick}/>
   }
 }
 
