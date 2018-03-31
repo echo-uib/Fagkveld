@@ -25,11 +25,11 @@ body {
   flex-direction: column;
   align-items: center;
   color: white; }
-  .top-info-box > p {
-    width: 80%;
-    margin-top: 0;
-    margin-bottom: 2em;
-    text-align: center; }
+
+.top-info-box > p {
+  width: 80%;
+  margin-top: 0;
+  text-align: center; }
 
 @media (max-width: 978px) {
   .top-info-box > p {
@@ -46,10 +46,27 @@ h1 {
   font-weight: 200;
   font-size: 18px;
   margin-top: 0;
-  color: orange; }
+  margin-bottom: 0;
+  color: white; }
 
 .top-info {
   margin-top: 30px;
+  margin-bottom: 2.5em;
   color: #C6C6C6; }
+
+.attend-button {
+  margin-bottom: 1em;
+  color: orange;
+  cursor: pointer;
+
+  font-size: 1.2em;
+  font-weight: 200;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.attend-button:hover {
+  font-weight: 400;
+}
 
 /*# sourceMappingURL=index.css.map */
