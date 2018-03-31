@@ -14,7 +14,7 @@ class EventCard extends Component {
     const foredragsholder = event.foredragsholder;
     const icon = type === 'foredrag' ? 'comments' : 'cogs';
     const info = event.info;
-    const lines = this.props.expand ? 0 : 2;
+    const lines = this.props.expand ? 0 : 3;
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
     const påmelding = event.link ? <SignUpLink link={event.link} /> : null;
