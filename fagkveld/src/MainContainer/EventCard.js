@@ -18,12 +18,7 @@ class EventCard extends Component {
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
     const påmelding = event.link ? <SignUpLink link={event.link} /> : null;
-    const onClick = () => {
-      if (this.props.expand)
-        this.props.onClick({})
-      else
-        this.props.onClick(event)
-    }
+    const onClick = () => this.props.onClick((this.props.expand ? {} : event));
 
     return (
       <div className='event-card' onClick={onClick}>
