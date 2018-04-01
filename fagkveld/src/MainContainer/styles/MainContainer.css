@@ -29,7 +29,6 @@
   padding-left: 20%;
   padding-right: 20%;
   font-size: 25px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,19 +42,28 @@
   }
 }
 
+@media (max-width: 450px) {
+  .top-buttons {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 350px) {
+  .top-buttons {
+    font-size: 16px;
+  }
+}
+
 .top-button {
   height: 45px;
-  padding-left: 50px;
-  padding-right: 50px;
-
+  width: 45%;
   cursor: pointer;
   border-bottom: 3px solid #777777;
 }
 
-@media (max-width: 978px) {
+@media (max-width: 450px) {
   .top-button {
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 48%;
   }
 }
 
