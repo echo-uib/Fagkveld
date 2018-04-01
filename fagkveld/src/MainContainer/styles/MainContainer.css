@@ -6,10 +6,10 @@
   background-color: white;
   color: black;
 
-  min-height: 1200px;
-  padding: 5%;
+  padding-top: 5%;
   padding-left: 20%;
   padding-right: 20%;
+  /*padding-bottom:10%;*/
 }
 
 @media (max-width: 978px) {

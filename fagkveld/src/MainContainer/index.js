@@ -11,7 +11,7 @@ class MainContainer extends Component {
   }
 
   render() {
-    const onClick = (event) => { this.setState({expandedEvent:event}) }
+    const onClick = (event) => { this.setState({ expandedEvent: event }) }
     const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
     const workshops = this.props.data.workshops ? this.props.data.workshops : [];
     const eventCards = this.state.selected === 'FOREDRAG'
@@ -26,6 +26,9 @@ class MainContainer extends Component {
         />
 
         {eventCards}
+        <p className='event-card-author credits-text'>
+          Laget av Ragnhild Aalvik og Kristian Rosland
+        </p>
       </div>
     );
   }
