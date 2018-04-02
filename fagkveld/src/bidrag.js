@@ -3,34 +3,40 @@ const data = {
   "workshops": [
     {
       "tittel": "Designutfordring: Hvordan ser fremtidens jobbsøkerprosess ut?",
-      "foredragsholder": "Chistine Isaksen og Tor Anders Dybing, Computas",
+      "foredragsholder": "Christine Isaksen og Tor Anders Dybing, Computas",
       "info": "Lær hvordan vi involvererer beslutningstakere i en brukersentrert designprosess. Alt koker ned til å bruke riktig verktøy til riktig tidspunkt. Vi ser på ulike teknikker som brukes i designprosessen og prøver oss på et par av de.",
       "klokkeslett": "17.15 - 18.45",
-      "link": "https://goo.gl/forms/a5Hat9A698120qZt2",
+      "link": "https://goo.gl/forms/NPFbsx2olyiFQNYi2",
     },
     {
       "tittel": "Sikkerhetsworkshop: Reverse engineering",
       "foredragsholder": "Christian Resell, NSM",
       "info": "Lær basic reverseengineering av Christian Resell ",
       "klokkeslett": "17.15 - 18.45",
-      "link": "https://goo.gl/forms/a5Hat9A698120qZt2",
+      "link": "https://goo.gl/forms/mfeilFmu8dIyrctF3",
     },
     {
       "tittel": "Kunstige nevrale nettverk og deep learning",
       "foredragsholder": "Alexander Lundervold, HVL",
-      "info": "Workshopen vil gi en praktisk innføring i «state-of-the-art»-teknikker fra maskinlæring: såkalte kunstige nevrale nettverk og deep learning. Du får en hands-on innføring til kunstige nevrale nettverk, og du får selv anledning til å utvikle deep learning-systemer med det fremste av teknologi og teknikker i feltet. Du vil også få jobbe med reelle medisinske bilder, og se hvordan deep learning kan brukes til å detektere sykdom. Etter denne workshopen vil du ha god forståelse for det som ligger bak de senere års store gjennombrudd innen «kunstig intelligens». For å gjennomføre workshopen vil du få tilgang til en kraftig regnemaskin i «skyen». Husk å ta med din egen laptop. ",
+      "info": "Workshopen vil gi en praktisk innføring i «state-of-the-art»-teknikker fra maskinlæring: såkalte kunstige nevrale nettverk og deep learning. Du får en hands-on innføring til kunstige nevrale nettverk, og du får selv anledning til å utvikle deep learning-systemer med det fremste av teknologi og teknikker i feltet. Du vil også få jobbe med reelle medisinske bilder, og se hvordan deep learning kan brukes til å detektere sykdom. Etter denne workshopen vil du ha god forståelse for det som ligger bak de senere års store gjennombrudd innen «kunstig intelligens». For å gjennomføre workshopen vil du få tilgang til en kraftig regnemaskin i «skyen». Husk å ta med din egen laptop.",
       "klokkeslett": "19.30 - 21.00",
-      "link": "https://goo.gl/forms/a5Hat9A698120qZt2",
+      "link": "https://goo.gl/forms/aFbbdBKRsxmJvv3c2",
     },
     {
-      "tittel": "Spillutvikling i Unity",
+      "tittel": "Introduksjon til spillutvikling i Unity",
       "foredragsholder": "Baste Buanes, Spillmakerlauget",
       "info": "En workshop om å lage spill i Unity",
       "klokkeslett": "19.30 - 21.00",
-      "link": "https://goo.gl/forms/a5Hat9A698120qZt2",
+      "link": "https://goo.gl/forms/PlAc2MaLwFeadMjC3",
     },
   ],
   "foredrag": [
+    {
+      "tittel": "Velkommen",
+      "foredragsholder": "",
+      "info":"",
+      "klokkeslett": "17.00 - 17.15",
+    },
     {
       "tittel": "Hvordan er egentlig arbeidslivet som nyudannet?",
       "foredragsholder": "Andreas Dukstad, Sparebanken Vest",
