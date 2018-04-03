@@ -25,7 +25,7 @@ const data = {
     {
       "tittel": "Introduksjon til spillutvikling i Unity",
       "foredragsholder": "Baste Buanes, Spillmakerlauget",
-      "info": "En workshop om å lage spill i Unity",
+      "info": "På denne workshoppen skal vi lage dataspill! Dere får en innføring i hvordan man bruker Unity3D til å utvikle spill, med vekt på programmeringssiden av utviklingen. Først kommer jeg til å snakke litt om hvordan det er å være spillprogrammerer, og vise dere hvordan Unity3D fungerer. Så skal vi implementere noen spillmekanikker i fellesskap, og til slutt får dere lage ferdig så mye som dere klarer av et enkelt spill. Dette er lagt opp til å passe for alle som har gjennomført i hvert fall Inf100, og føler de behersker grunnleggende programmering i Java, men det er også mer utfordrende oppgaver til de av dere som har kommet lengre. Deltakere må ha med en laptop, og ha Unity installert på forhånd. Instruksjoner for det, og mer info om workshoppen finner dere her: https://github.com/Baste-RainGames/Fagkveld_2018",
       "klokkeslett": "19.30 - 21.00",
       "link": "https://goo.gl/forms/PlAc2MaLwFeadMjC3",
     },
@@ -74,9 +74,9 @@ const data = {
       "klokkeslett": "17.15 - 17.35",
     },
     {
-      "tittel": "Vår plattform for Fantasy Sportsløsninger",
-      "foredragsholder": "Øystein Østebø Olsen, Scout Gaming",
-      "info": "",
+      "tittel": "Starte ett nytt prosjekt - for mange valg",
+      "foredragsholder": "Øystein Østebø Olsen, Scout Gaming Group",
+      "info": "Hvilke hensyn bør tas når man starter ett nytt prosjekt? Å starte et webutviklingsprosjekt i dag er ikke enkelt. Web rammeverk kommer og går, det prosjektet du startet på i forrige uke kan være bygget på allerede utdatert teknologi, tjenestene plattformen var bygget på kan ha gått under eller blitt kjøpt opp. Så hvordan i all verden går du fram for å lage noe nytt som andre kan ønske å bruke eller vedlikeholde? Det finnes kanskje ikke en perfekt løsning, men vi vil presentere vår historie om hvordan vi startet et moderne webprosjekt.",
       "klokkeslett": "19.30 - 19.45",
     },
     {
