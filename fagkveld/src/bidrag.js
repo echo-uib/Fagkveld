@@ -23,7 +23,7 @@ const data = {
       "link": "https://goo.gl/forms/aFbbdBKRsxmJvv3c2",
     },
     {
-      "tittel": "Introduksjon til spillutvikling i Unity",
+      "tittel": "Introduksjon til spillutvikling",
       "foredragsholder": "Baste Buanes, Spillmakerlauget",
       "info": "På denne workshoppen skal vi lage dataspill! Dere får en innføring i hvordan man bruker Unity3D til å utvikle spill, med vekt på programmeringssiden av utviklingen. Først kommer jeg til å snakke litt om hvordan det er å være spillprogrammerer, og vise dere hvordan Unity3D fungerer. Så skal vi implementere noen spillmekanikker i fellesskap, og til slutt får dere lage ferdig så mye som dere klarer av et enkelt spill. Dette er lagt opp til å passe for alle som har gjennomført i hvert fall Inf100, og føler de behersker grunnleggende programmering i Java, men det er også mer utfordrende oppgaver til de av dere som har kommet lengre. Deltakere må ha med en laptop, og ha Unity installert på forhånd. Instruksjoner for det, og mer info om workshoppen finner dere her: https://github.com/Baste-RainGames/Fagkveld_2018",
       "klokkeslett": "19.30 - 21.00",
