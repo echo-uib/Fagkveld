@@ -15,9 +15,9 @@ const data = {
       "link": "https://goo.gl/forms/NPFbsx2olyiFQNYi2",
     },
     {
-      "tittel": "Sikkerhetsworkshop: Reverse engineering",
+      "tittel": "Reverse Engineering 101",
       "foredragsholder": "Christian Resell, NSM",
-      "info": "Informasjon kommer",
+      "info": "Dette er en kort introduksjon til reverse engineering for de som aldri har vært borti dette før. Workshopen er beregnet på de som kan basic programmering i C (og gjerne assembly) og Linux. Vi kommer til å se på forskjellige måter å analysere programmer på, og det blir hovedfokus på løsing av oppgaver.",
       "klokkeslett": "17.15 - 18.45",
       "link": "https://goo.gl/forms/mfeilFmu8dIyrctF3",
     },
