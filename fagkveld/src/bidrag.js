@@ -2,7 +2,7 @@ const data = {
   "topText": "Velkommen til fagkveld for IT-studenter i Bergen! Fagutvalget ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer sammen med Den Norske Dataforening til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! Ti forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser på workshops, så meld deg på nå!",
   "workshops": [
     {
-      "tittel": "Pizzapause",
+      "tittel": "Pause med mat og drikke",
       "foredragsholder": "",
       "info": "",
       "klokkeslett": "18.45 - 19.30",
@@ -38,7 +38,7 @@ const data = {
   ],
   "foredrag": [
     {
-      "tittel": "Pizzapause",
+      "tittel": "Pause med mat og drikke",
       "foredragsholder": "",
       "info": "",
       "klokkeslett": "18.45 - 19.30",
@@ -58,7 +58,7 @@ const data = {
     {
       "tittel": "En kort innføring i maskinlæring",
       "foredragsholder": "Alexander Lundervold, HVL",
-      "info": "I løpet av få har det skjedd en dramatisk utvikling innen områder knyttet til kunstig intelligens. Maskiners evne til å gjenkjenne objekter i bilder har gått fra å være omtrent ubrukelig til å nå et menneskelig nivå; fra svært begrenset evne til forståelse og syntese av tekst og tale til utstrakt bruk av personlige digitale assistenter; fra amatørnivå i Jeopardy, Poker, Go og Dota til verdens beste; fra kjøre-assistanse til selvkjørende biler.  Årsaken til dette er gjennombrudd innen maskinlæring, spesielt i det som kalles 'deep learning'. \n\nForedraget gir en innføring i maskinlæring, og peker på noen av årsakene til gjennombruddene. I tillegg skal vi se på noen av anvendelsene innen medisinsk bildebehandling, med eksempler fra det nye Mohn Medical Imaging and Visualization Center på Radiologisk avdeling, Haukeland Universitetssykehus (https://mmiv.no).",
+      "info": "I løpet av få år har det skjedd en dramatisk utvikling innen områder knyttet til kunstig intelligens. Maskiners evne til å gjenkjenne objekter i bilder har gått fra å være omtrent ubrukelig til å nå et menneskelig nivå; fra svært begrenset evne til forståelse og syntese av tekst og tale til utstrakt bruk av personlige digitale assistenter; fra amatørnivå i Jeopardy, Poker, Go og Dota til verdens beste; fra kjøre-assistanse til selvkjørende biler.  Årsaken til dette er gjennombrudd innen maskinlæring, spesielt i det som kalles 'deep learning'. \n\nForedraget gir en innføring i maskinlæring, og peker på noen av årsakene til gjennombruddene. I tillegg skal vi se på noen av anvendelsene innen medisinsk bildebehandling, med eksempler fra det nye Mohn Medical Imaging and Visualization Center på Radiologisk avdeling, Haukeland Universitetssykehus (https://mmiv.no).",
       "klokkeslett": "17.40 - 18.00",
     },
     {
@@ -70,7 +70,7 @@ const data = {
     {
       "tittel": "Minesweeper i Elm på 20 minutter",
       "foredragsholder": "Alexander Rosbach, Computas",
-      "info": "Vi utforsker programmeringsspråket elm ved å lage minesveiper på 20 minutter. Det kommer til å gå fort i svingene, så om du har vært borti Haskell, elm eller et annet rent funksjonelt språk før så er det en fordel.",
+      "info": "Vi utforsker programmeringsspråket Elm ved å lage minesveiper på 20 minutter. Det kommer til å gå fort i svingene, så om du har vært borti Haskell, Elm eller et annet rent funksjonelt språk før så er det en fordel.",
       "klokkeslett": "18.20 - 18.40",
     },
     {

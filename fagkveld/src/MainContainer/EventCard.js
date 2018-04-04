@@ -13,10 +13,10 @@ class EventCard extends Component {
     const klokkeslett = event.klokkeslett;
     const foredragsholder = event.foredragsholder;
     const info = event.info;
-    const lines = this.props.expand ? 0 : 3;
+    const lines = this.props.expand ? 0 : 2;
 
     let icon =
-      tittel === 'Pizzapause' ? 'cutlery' :
+      tittel === 'Pause med mat og drikke' ? 'cutlery' :
       (type === 'foredrag' ? 'comments' : 'cogs');
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
@@ -24,15 +24,18 @@ class EventCard extends Component {
     const onClick = () => this.props.onClick(event);
 
     return (
-      <div className='event-card' onClick={onClick}>
+      <div className='event-card'>
         {timeLabel}
         <div className='event-card-content'>
           <p className='event-card-title'> {tittel} </p>
           <p className='event-card-author'> {foredragsholder} </p>
-          <TextTruncate
-            line={lines}
-            truncateText="..."
-            text={info} />
+          <div className='truncate-wrapper' onClick={onClick}>
+            <TextTruncate
+              line={lines}
+              truncateText="..."
+              text={info}
+            />
+          </div>
           {påmelding}
         </div>
       </div>
