@@ -12,9 +12,12 @@ class EventCard extends Component {
     const tittel = event.tittel;
     const klokkeslett = event.klokkeslett;
     const foredragsholder = event.foredragsholder;
-    const icon = type === 'foredrag' ? 'comments' : 'cogs';
     const info = event.info;
     const lines = this.props.expand ? 0 : 3;
+
+    let icon =
+      tittel === 'Pizzapause' ? 'cutlery' :
+      (type === 'foredrag' ? 'comments' : 'cogs');
 
     const timeLabel = <TimeLabel icon={icon} klokkeslett={klokkeslett} />
     const påmelding = event.link ? <SignUpLink link={event.link} /> : null;

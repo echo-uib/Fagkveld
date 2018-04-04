@@ -2,6 +2,12 @@ const data = {
   "topText": "Velkommen til fagkveld for IT-studenter i Bergen! Fagutvalget ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer sammen med Den Norske Dataforening til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! Ti forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser på workshops, så meld deg på nå!",
   "workshops": [
     {
+      "tittel": "Pizzapause",
+      "foredragsholder": "",
+      "info": "",
+      "klokkeslett": "18.45 - 19.30",
+    },
+    {
       "tittel": "Designutfordring: Hvordan ser fremtidens jobbsøkerprosess ut?",
       "foredragsholder": "Christine Isaksen og Tor Anders Dybing, Computas",
       "info": "Lær hvordan vi involvererer beslutningstakere i en brukersentrert designprosess. Alt koker ned til å bruke riktig verktøy til riktig tidspunkt. Vi ser på ulike teknikker som brukes i designprosessen og prøver oss på et par av de.",
@@ -11,7 +17,7 @@ const data = {
     {
       "tittel": "Sikkerhetsworkshop: Reverse engineering",
       "foredragsholder": "Christian Resell, NSM",
-      "info": "Lær basic reverseengineering av Christian Resell ",
+      "info": "Informasjon kommer",
       "klokkeslett": "17.15 - 18.45",
       "link": "https://goo.gl/forms/mfeilFmu8dIyrctF3",
     },
@@ -32,6 +38,12 @@ const data = {
   ],
   "foredrag": [
     {
+      "tittel": "Pizzapause",
+      "foredragsholder": "",
+      "info": "",
+      "klokkeslett": "18.45 - 19.30",
+    },
+    {
       "tittel": "Velkommen",
       "foredragsholder": "",
       "info":"",
@@ -50,9 +62,9 @@ const data = {
       "klokkeslett": "17.40 - 18.00",
     },
     {
-      "tittel": "Teknologi er uvesentlig. Å løse problemer er oppskriften",
-      "foredragsholder": "Eirik Bjørkum Eidem, Sparebanken Vest",
-      "info": "Blockchain, Internet of Things, kunstig intelligens og deep learning er alt dette foredraget ikke handler om. Man kan brukes all verdens buzzord, men så lenge man ikke løser vanlige folks problemer kommer man ikke langt. Eirik gir et innblikk i hvordan de beste selskapene i verden i dag tar utgangspunkt i hvilke problemer man skal løse for kundene, ikke hvilken teknologi man skal anvende.",
+      "tittel": "ÅPEN",
+      "foredragsholder": "",
+      "info": "",
       "klokkeslett": "18.00 - 18.20",
     },
     {
@@ -74,21 +86,21 @@ const data = {
       "klokkeslett": "17.15 - 17.35",
     },
     {
-      "tittel": "Starte ett nytt prosjekt - for mange valg",
+      "tittel": "Starte et nytt prosjekt - for mange valg",
       "foredragsholder": "Øystein Østebø Olsen, Scout Gaming Group",
-      "info": "Hvilke hensyn bør tas når man starter ett nytt prosjekt? Å starte et webutviklingsprosjekt i dag er ikke enkelt. Web rammeverk kommer og går, det prosjektet du startet på i forrige uke kan være bygget på allerede utdatert teknologi, tjenestene plattformen var bygget på kan ha gått under eller blitt kjøpt opp. Så hvordan i all verden går du fram for å lage noe nytt som andre kan ønske å bruke eller vedlikeholde? Det finnes kanskje ikke en perfekt løsning, men vi vil presentere vår historie om hvordan vi startet et moderne webprosjekt.",
+      "info": "Hvilke hensyn bør tas når man starter et nytt prosjekt? Å starte et webutviklingsprosjekt i dag er ikke enkelt. Web rammeverk kommer og går, det prosjektet du startet på i forrige uke kan være bygget på allerede utdatert teknologi, tjenestene plattformen var bygget på kan ha gått under eller blitt kjøpt opp. Så hvordan i all verden går du fram for å lage noe nytt som andre kan ønske å bruke eller vedlikeholde? Det finnes kanskje ikke en perfekt løsning, men vi vil presentere vår historie om hvordan vi startet et moderne webprosjekt.",
       "klokkeslett": "19.30 - 19.45",
     },
     {
-      "tittel": "Vue.js",
-      "foredragsholder": "Ola Normann, Stacc",
-      "info": "Noe som handler om vue.js",
+      "tittel": "Vue.js på 1-2-3",
+      "foredragsholder": "Nils Magnus Djupvik og Thomas Monsen, Stacc",
+      "info": "Ønsker du å se hvor enkelt og raskt det er å utvikle et reaktivt brukergrensesnitt i Vue.js?  Vue.js er i kraftig vekst og vi i Stacc Insight har på kort tid sett mange nye muligheter ved å ta i bruk dette rammeverket.",
       "klokkeslett": "20.20 - 20.35",
     },
     {
       "tittel": "Gratis maskinlesbare data frå offentleg sektor. Ja takk!",
       "foredragsholder": "Livar Bergheim, Difi",
-      "info": "Noe om maskinbarlesbare data fra offentlig sektor",
+      "info": "Kva er eigentleg opne data? Korleis kan du finne data og API-er du kan bruke? Korleis får du tak i data som ikkje er publisert? Vi ser på eksempel på opne data som du kan bruke og nokre eksempel på korleis data har blitt brukt.",
       "klokkeslett": "19.45 - 20.00",
     },
     {
