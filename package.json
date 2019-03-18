@@ -10,7 +10,8 @@
     "react-fontawesome": "^1.6.1",
     "react-particles-js": "^2.5.1",
     "react-scripts": "2.1.8",
-    "sass": "^1.17.3"
+    "sass": "^1.17.3",
+    "styled-components": "^4.1.3"
   },
   "scripts": {
     "predeploy": "npm run build",
