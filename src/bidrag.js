@@ -1,6 +1,6 @@
 const data = {
   topText:
-    "Velkommen til fagkveld 2019 for IT-studenter i Bergen! Fagutvalget ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! Ti forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser på workshops, så meld deg på nå!",
+    "Velkommen til fagkveld 2019 for IT-studenter i Bergen! echo ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! Ti forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser på workshops, så meld deg på nå!",
   workshops: [
     {
       tittel: "Pause med mat og drikke",
