@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TimeLabel from "./TimeLabel";
-import SignUpLink from "./SignUpLink";
+import SignUpLink from "./components/SignUpLink";
 
 class EventCard extends Component {
   render() {
