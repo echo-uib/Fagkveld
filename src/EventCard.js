@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TimeLabel from "./components/common/TimeLabel";
-import SignUpLink from "./components/SignUpLink";
+import { SignUpLink } from "./components/common/Registration";
 
 class EventCard extends Component {
   render() {
@@ -17,7 +17,9 @@ class EventCard extends Component {
         : "cogs";
 
     const timeLabel = <TimeLabel icon={icon} time={time} />;
-    const registration = event.link ? <SignUpLink link={event.link} /> : null;
+    const registration = event.link ? (
+      <SignUpLink link={event.link} text="MELD DEG PÅ" />
+    ) : null;
 
     return (
       <div className="event-card">
