@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import TopButtons from "./TopButtons";
 import EventCard from "./EventCard";
+import content from "./Content";
 
 class MainContainer extends Component {
   constructor(props) {
@@ -29,10 +30,7 @@ class MainContainer extends Component {
         />
 
         {eventCards}
-        <p className="event-card-author credits-text">
-          Laget av Ragnhild Aalvik og Kristian Rosland, oppdatert av Sondre
-          Nilsen
-        </p>
+        <p className="event-card-author credits-text">{content.meta.madeBy}</p>
       </div>
     );
   }

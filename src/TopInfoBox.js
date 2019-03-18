@@ -1,15 +1,13 @@
 import React, { Component } from "react";
+import content from "./Content";
 
 class TopInfoBox extends Component {
   render() {
     const link = "https://goo.gl/forms/CQzGIAxISZymVRzw2";
     return (
       <div className="top-info-box">
-        <h1> FAGKVELD </h1>
-        <h4 className="top-time-info">
-          {" "}
-          {"29. mars kl. 17.00 | Media City Bergen"}{" "}
-        </h4>
+        <h1>{content.meta.name.toUpperCase()}</h1>
+        <h4 className="top-time-info">{content.meta.date}</h4>
         <a
           className="attend-button"
           href={link}
@@ -18,7 +16,7 @@ class TopInfoBox extends Component {
         >
           {"MELD DEG PÅ HER"}
         </a>
-        <p className="top-info"> {this.props.text} </p>
+        <p className="top-info"> {content.meta.info} </p>
       </div>
     );
   }
