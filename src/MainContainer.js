@@ -12,13 +12,13 @@ class MainContainer extends Component {
     const onClick = event => {
       this.setState({ expandedEvent: event });
     };
-    const foredrag = this.props.data.foredrag ? this.props.data.foredrag : [];
+    const talk = this.props.data.foredrag ? this.props.data.foredrag : [];
     const workshops = this.props.data.workshops
       ? this.props.data.workshops
       : [];
     const eventCards =
       this.state.selected === "FOREDRAG"
-        ? foredrag.map(f => this.mapEvent(f, "foredrag", onClick))
+        ? talk.map(f => this.mapEvent(f, "talk", onClick))
         : workshops.map(w => this.mapEvent(w, "workshop", onClick));
 
     return (
@@ -43,7 +43,7 @@ class MainContainer extends Component {
       <EventCard
         event={e}
         type={type}
-        key={e.tittel}
+        key={e.title}
         expand={expand}
         onClick={onClick}
       />
