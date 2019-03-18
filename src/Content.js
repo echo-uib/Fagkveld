@@ -6,9 +6,18 @@ export const meta = {
   madeBy:
     "Laget av Ragnhild Aalvik og Kristian Rosland, oppdatert av Sondre Nilsen",
   registration: {
-    uib: "",
-    hvl: "",
-    fim: ""
+    uib: {
+      text: "Påmelding UiB",
+      link: "#"
+    },
+    hvl: {
+      text: "Påmelding HVL",
+      link: "#"
+    },
+    fim: {
+      text: "Påmelding FIM",
+      link: "#"
+    }
   }
 };
 export const workshops = [
