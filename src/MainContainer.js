@@ -12,7 +12,7 @@ class MainContainer extends Component {
     const onClick = event => {
       this.setState({ expandedEvent: event });
     };
-    const talk = this.props.data.foredrag ? this.props.data.foredrag : [];
+    const talk = this.props.data.talks ? this.props.data.talks : [];
     const workshops = this.props.data.workshops
       ? this.props.data.workshops
       : [];

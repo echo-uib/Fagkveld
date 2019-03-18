@@ -16,7 +16,7 @@ class App extends Component {
       else return m1 - m2;
     };
 
-    data.foredrag.sort(comparator);
+    data.talks.sort(comparator);
     data.workshops.sort(comparator);
 
     return (

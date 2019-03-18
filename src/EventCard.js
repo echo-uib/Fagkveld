@@ -17,11 +17,11 @@ class EventCard extends Component {
     let icon =
       title === "Pause med mat og drikke"
         ? "cutlery"
-        : type === "foredrag"
+        : type === "talks"
         ? "comments"
         : "cogs";
 
-    const timeLabel = <TimeLabel icon={icon} klokkeslett={time} />;
+    const timeLabel = <TimeLabel icon={icon} time={time} />;
     const registration = event.link ? <SignUpLink link={event.link} /> : null;
     const onClick = () => this.props.onClick(event);
 

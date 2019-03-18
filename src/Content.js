@@ -25,7 +25,7 @@ const data = {
       link: "#"
     }
   ],
-  foredrag: [
+  talks: [
     {
       title: "Pause med mat og drikke",
       speakers: "",
@@ -42,7 +42,7 @@ const data = {
       title: "Vil du jobbe med data?",
       speakers: "Didrik Finnøy, Data Scientist hos Atea",
       info:
-        "Data er den nye elektrisiteten, den nye oljen, og kanskje den mest spennende karriereretningen man kan velge i disse dager. Foredraget gir innsikt i hvordan det er å jobbe med data i Bergen / Norge, og  hvordan man skiller seg ut når man søker data - relaterte jobber. Du får høre litt om hva slags arbeid som venter deg, og hva som kreves for å lykkes. Didrik Finnøy, Data Scientist hos Atea.Didrik studerte 'feil' fag på universitetet, og har kjempet seg inn i data bransjen gjennom kurs, bøker, og personlige prosjekter. I dag jobber han som konsulent, og hjelper Atea sine kunder med å utvinne verdi fra dataen de forvalter.",
+        "Data er den nye elektrisiteten, den nye oljen, og kanskje den mest spennende karriereretningen man kan velge i disse dager. Foredraget gir innsikt i hvordan det er å jobbe med data i Bergen / Norge, og  hvordan man skiller seg ut når man søker data - relaterte jobber. Du får høre litt om hva slags arbeid som venter deg, og hva som kreves for å lykkes. Didrik Finnøy, Data Scientist hos Atea, studerte 'feil' fag på universitetet, og har kjempet seg inn i data bransjen gjennom kurs, bøker, og personlige prosjekter. I dag jobber han som konsulent, og hjelper Atea sine kunder med å utvinne verdi fra dataen de forvalter.",
       time: "00.00 - 00.20"
     },
     {
