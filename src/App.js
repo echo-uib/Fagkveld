@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Normalize } from "styled-normalize";
 import MainContainer from "./MainContainer";
 import { TopInfo } from "./containers/TopInfo";
 import { talks, workshops } from "./Content";
@@ -21,6 +22,7 @@ class App extends Component {
 
     return (
       <div>
+        <Normalize />
         <Particles
           params={{
             particles: {
