@@ -32,7 +32,8 @@ class MainContainer extends Component {
 
         {eventCards}
         <p className="event-card-author credits-text">
-          Laget av Ragnhild Aalvik og Kristian Rosland
+          Laget av Ragnhild Aalvik og Kristian Rosland, oppdatert av Sondre
+          Nilsen
         </p>
       </div>
     );

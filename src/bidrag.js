@@ -9,36 +9,20 @@ const data = {
       klokkeslett: "18.45 - 19.30"
     },
     {
-      tittel: "Designutfordring: Hvordan ser fremtidens jobbsøkerprosess ut?",
-      foredragsholder: "Christine Isaksen og Tor Anders Dybing, Computas",
+      tittel: "CV-Workshop",
+      foredragsholder: "Adrian Moksness & Margrethe Johnsen, Netlight",
       info:
-        "Lær hvordan vi involvererer beslutningstakere i en brukersentrert designprosess. Alt koker ned til å bruke riktig verktøy til riktig tidspunkt. Vi ser på ulike teknikker som brukes i designprosessen og prøver oss på et par av de.",
-      klokkeslett: "17.15 - 18.45",
-      link: "https://goo.gl/forms/NPFbsx2olyiFQNYi2"
+        "Hvordan bygger man en god CV for å få spennende muligheter etter studiet? Adrian og Margrethe i Netlight gir et innblikk i karrieremulighetene i Netlight, hva vi anser som en «god CV» og hvordan en kan jobbe med å bygge CVen sin gjennom erfaringer underveis i studietiden.",
+      klokkeslett: "00.00 - 01.30",
+      link: "#"
     },
     {
-      tittel: "Reverse Engineering 101",
-      foredragsholder: "Christian Resell, NSM",
+      tittel: "Visualisering av data i kart med Leaflet",
+      foredragsholder: "Anders Linge Olsvik Breilid, Kantega",
       info:
-        "Dette er en kort introduksjon til reverse engineering for de som aldri har vært borti dette før. Workshopen er beregnet på de som kan basic programmering i C (og gjerne assembly) og Linux. Vi kommer til å se på forskjellige måter å analysere programmer på, og det blir hovedfokus på løsing av oppgaver.",
-      klokkeslett: "17.15 - 18.45",
-      link: "https://goo.gl/forms/mfeilFmu8dIyrctF3"
-    },
-    {
-      tittel: "Kunstige nevrale nettverk og deep learning",
-      foredragsholder: "Alexander Lundervold, HVL",
-      info:
-        "Workshopen vil gi en praktisk innføring i «state-of-the-art»-teknikker fra maskinlæring: såkalte kunstige nevrale nettverk og deep learning. Du får en hands-on innføring til kunstige nevrale nettverk, og du får selv anledning til å utvikle deep learning-systemer med det fremste av teknologi og teknikker i feltet. Du vil også få jobbe med reelle medisinske bilder, og se hvordan deep learning kan brukes til å detektere sykdom. Etter denne workshopen vil du ha god forståelse for det som ligger bak de senere års store gjennombrudd innen «kunstig intelligens». For å gjennomføre workshopen vil du få tilgang til en kraftig regnemaskin i «skyen». Husk å ta med din egen laptop.",
-      klokkeslett: "19.30 - 21.00",
-      link: "https://goo.gl/forms/aFbbdBKRsxmJvv3c2"
-    },
-    {
-      tittel: "Introduksjon til spillutvikling",
-      foredragsholder: "Baste Buanes, Spillmakerlauget",
-      info:
-        "På denne workshoppen skal vi lage dataspill! Dere får en innføring i hvordan man bruker Unity3D til å utvikle spill, med vekt på programmeringssiden av utviklingen. Først kommer jeg til å snakke litt om hvordan det er å være spillprogrammerer, og vise dere hvordan Unity3D fungerer. Så skal vi implementere noen spillmekanikker i fellesskap, og til slutt får dere lage ferdig så mye som dere klarer av et enkelt spill. Dette er lagt opp til å passe for alle som har gjennomført i hvert fall Inf100, og føler de behersker grunnleggende programmering i Java, men det er også mer utfordrende oppgaver til de av dere som har kommet lengre. Deltakere må ha med en laptop, og ha Unity installert på forhånd. Instruksjoner for det, og mer info om workshoppen finner dere her: https://github.com/Baste-RainGames/Fagkveld_2018",
-      klokkeslett: "19.30 - 21.00",
-      link: "https://goo.gl/forms/PlAc2MaLwFeadMjC3"
+        "I denne workshopen vil deltakerne lære å bruke biblioteket Leaflet for kartvisning i HTML med Javascript, samt lære hvordan man kan hente data fra et åpent API og visualisere dataene i kartet. Det vil være fokus på å bruke dokumentasjon aktivt for å forstå hvordan biblioteket og API-et fungerer.",
+      klokkeslett: "00.00 - 01.30",
+      link: "#"
     }
   ],
   foredrag: [
@@ -55,73 +39,19 @@ const data = {
       klokkeslett: "17.00 - 17.15"
     },
     {
-      tittel: "Hvordan er egentlig arbeidslivet som nyudannet?",
-      foredragsholder: "Andreas Dukstad, Sparebanken Vest",
+      tittel: "Vil du jobbe med data?",
+      foredragsholder: "Didrik Finnøy, Data Scientist hos Atea",
       info:
-        "Mange er ofte nervøse for å starte arbeidslivet som nyutdannet. 'Er jeg flink nok?', 'Har jeg det som trengs?'. Hvordan er egentlig arbeidslivet sammenlignet med det man lærer på skolen? Dette er en erfaringsrapport fra to utviklere som satt med nøyaktig de samme spørsmålene for kun et par år siden",
-      klokkeslett: "21.00 - 21:15"
+        "Data er den nye elektrisiteten, den nye oljen, og kanskje den mest spennende karriereretningen man kan velge i disse dager. Foredraget gir innsikt i hvordan det er å jobbe med data i Bergen / Norge, og  hvordan man skiller seg ut når man søker data - relaterte jobber. Du får høre litt om hva slags arbeid som venter deg, og hva som kreves for å lykkes. Didrik Finnøy, Data Scientist hos Atea.Didrik studerte 'feil' fag på universitetet, og har kjempet seg inn i data bransjen gjennom kurs, bøker, og personlige prosjekter. I dag jobber han som konsulent, og hjelper Atea sine kunder med å utvinne verdi fra dataen de forvalter.",
+      klokkeslett: "00.00 - 00.20"
     },
     {
-      tittel: "En kort innføring i maskinlæring",
-      foredragsholder: "Alexander Lundervold, HVL",
+      tittel: "Hvordan ta i bruk web plattformen for bedre kodedeling?",
+      foredragsholder:
+        "Øystein Østebø Olsen og Torbjørn Angeltveit, Scout Gaming",
       info:
-        "I løpet av få år har det skjedd en dramatisk utvikling innen områder knyttet til kunstig intelligens. Maskiners evne til å gjenkjenne objekter i bilder har gått fra å være omtrent ubrukelig til å nå et menneskelig nivå; fra svært begrenset evne til forståelse og syntese av tekst og tale til utstrakt bruk av personlige digitale assistenter; fra amatørnivå i Jeopardy, Poker, Go og Dota til verdens beste; fra kjøre-assistanse til selvkjørende biler.  Årsaken til dette er gjennombrudd innen maskinlæring, spesielt i det som kalles 'deep learning'. \n\nForedraget gir en innføring i maskinlæring, og peker på noen av årsakene til gjennombruddene. I tillegg skal vi se på noen av anvendelsene innen medisinsk bildebehandling, med eksempler fra det nye Mohn Medical Imaging and Visualization Center på Radiologisk avdeling, Haukeland Universitetssykehus (https://mmiv.no).",
-      klokkeslett: "17.40 - 18.00"
-    },
-    {
-      tittel: "ÅPEN",
-      foredragsholder: "",
-      info: "",
-      klokkeslett: "18.00 - 18.20"
-    },
-    {
-      tittel: "Minesweeper i Elm på 20 minutter",
-      foredragsholder: "Alexander Rosbach, Computas",
-      info:
-        "Vi utforsker programmeringsspråket Elm ved å lage minesveiper på 20 minutter. Det kommer til å gå fort i svingene, så om du har vært borti Haskell, Elm eller et annet rent funksjonelt språk før så er det en fordel.",
-      klokkeslett: "18.20 - 18.40"
-    },
-    {
-      tittel: "Bør du ha en gamification-strategi?",
-      foredragsholder: "Alexander Strømme, Miles",
-      info:
-        "Spill er ikke bare lenger for barn og unge, men det er den hurtigst voksende formen for underholdning globalt hos personer over 30. Det investeres globalt ca. 3 milliarder timer i uken på å spille online-spill. Dette er med andre ord et helt naturlig sted å se til om man ønsker å løfte brukeropplevelsen rundt en merkevare eller rundt et produkt. UX-designer Alexander Valland Strømme har arbeidet med kjente merkevarer i en årrekke, blant annet TV 2, Sony og KODE. Han har mye erfaring med spillteori, gamification og brukeradferd fra både konseptutvikling og UX-design og fra sitt engasjement for spill og spillutvikling.",
-      klokkeslett: "20:35 - 20.55"
-    },
-    {
-      tittel: "Angular for en fersk backender",
-      foredragsholder: "Ida Ryland, Computas",
-      info:
-        "Hvordan bli en effektiv front-end utvikler på kort tid. Hvilke utfordringer møter en fersk back-end utvikler på, og hvilke erfaringer kan videreføres når man skal utvikle en Angular applikasjon?",
-      klokkeslett: "17.15 - 17.35"
-    },
-    {
-      tittel: "Starte et nytt prosjekt - for mange valg",
-      foredragsholder: "Øystein Østebø Olsen, Scout Gaming Group",
-      info:
-        "Hvilke hensyn bør tas når man starter et nytt prosjekt? Å starte et webutviklingsprosjekt i dag er ikke enkelt. Web rammeverk kommer og går, det prosjektet du startet på i forrige uke kan være bygget på allerede utdatert teknologi, tjenestene plattformen var bygget på kan ha gått under eller blitt kjøpt opp. Så hvordan i all verden går du fram for å lage noe nytt som andre kan ønske å bruke eller vedlikeholde? Det finnes kanskje ikke en perfekt løsning, men vi vil presentere vår historie om hvordan vi startet et moderne webprosjekt.",
-      klokkeslett: "19.30 - 19.45"
-    },
-    {
-      tittel: "Vue.js på 1-2-3",
-      foredragsholder: "Nils Magnus Djupvik og Thomas Monsen, Stacc",
-      info:
-        "Ønsker du å se hvor enkelt og raskt det er å utvikle et reaktivt brukergrensesnitt i Vue.js?  Vue.js er i kraftig vekst og vi i Stacc Insight har på kort tid sett mange nye muligheter ved å ta i bruk dette rammeverket.",
-      klokkeslett: "20.20 - 20.35"
-    },
-    {
-      tittel: "Gratis maskinlesbare data frå offentleg sektor. Ja takk!",
-      foredragsholder: "Livar Bergheim, Difi",
-      info:
-        "Kva er eigentleg opne data? Korleis kan du finne data og API-er du kan bruke? Korleis får du tak i data som ikkje er publisert? Vi ser på eksempel på opne data som du kan bruke og nokre eksempel på korleis data har blitt brukt.",
-      klokkeslett: "19.45 - 20.00"
-    },
-    {
-      tittel: "Kryptografi illustrert",
-      foredragsholder: "Hannah Amanda Hansen, Knowit",
-      info:
-        "Er du nysgjerrig på hvordan beskjeder holdes hemmelig i denne digitale verdenen? Synes du bulletpoints og forelesninger er kjedelig? Frykt ei. Denne talken kommer til å midlertidig tilfredsstille din nysgjerrighet uten bulletpoints. Alt skal tegnes. Ingen tekst. Det blir en utfordring. Kom og se om jeg klarer å formidle temaet etter din satisfaction. Det blir gøy. Ingen forkunnskaper nødvendig. Dette er en talk for alle som vil lære om kryptografi.",
-      klokkeslett: "20.00 - 20.20"
+        "Custom elements er en web standard som endelig beskriver hvordan rammeverk kan snakke sammen og en viktig primitiv for å endelig kunne fokusere på å lage gode UI elementer. En introduksjon til hva det er og hvordan det hjelper rammeverk å snakke samme språk.",
+      klokkeslett: "00.20 - 00.40"
     }
   ]
 };
