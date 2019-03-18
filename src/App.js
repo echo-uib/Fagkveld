@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MainContainer from "./MainContainer";
-import TopInfoBox from "./TopInfoBox";
-import { talks, workshops, meta } from "./Content";
+import { TopInfo } from "./containers/TopInfo";
+import { talks, workshops } from "./Content";
 import { Particles } from "react-particles-js";
 
 class App extends Component {
@@ -43,7 +43,7 @@ class App extends Component {
           className="particles"
         />
         <div className="app">
-          <TopInfoBox text={meta.info} />
+          <TopInfo />
           <MainContainer data={{ talks, workshops }} />
         </div>
       </div>
