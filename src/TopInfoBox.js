@@ -8,7 +8,7 @@ class TopInfoBox extends Component {
         <h1> FAGKVELD </h1>
         <h4 className="top-time-info">
           {" "}
-          {"12. april kl. 17.00 | Media City Bergen"}{" "}
+          {"29. mars kl. 17.00 | Media City Bergen"}{" "}
         </h4>
         <a
           className="attend-button"
