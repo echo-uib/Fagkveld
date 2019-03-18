@@ -76,4 +76,158 @@ h1 {
   position: absolute;
 }
 
+.event-card {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.event-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.event-card-title {
+  font-size: 1.17em;
+  font-weight: 300;
+  line-height: 1.375;
+}
+
+.event-card-author {
+  font-size: 14px;
+  color: gray;
+  line-height: 1.375;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.sign-up {
+  font-size: 15px;
+}
+
+p {
+  margin: 0;
+  text-align: start;
+}
+
+.credits-text {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+.truncate-wrapper {
+  color: black;
+}
+
+.truncate-wrapper:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  /*padding-bottom:10%;*/
+}
+
+@media (max-width: 978px) {
+  .main-container {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
+.button-container {
+  width: 100%;
+}
+
+.top-buttons {
+  width: 100%;
+  color: #777777;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 978px) {
+  .top-buttons {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 22px;
+  }
+}
+@media (max-width: 450px) {
+  .top-buttons {
+    font-size: 18px;
+  }
+}
+@media (max-width: 350px) {
+  .top-buttons {
+    font-size: 16px;
+  }
+}
+.top-button {
+  height: 45px;
+  width: 45%;
+  cursor: pointer;
+  border-bottom: 3px solid #777777;
+}
+
+@media (max-width: 450px) {
+  .top-button {
+    width: 48%;
+  }
+}
+.top-button:hover {
+  border-bottom: 3px solid orange;
+  color: black;
+}
+
+.button-selected {
+  border-bottom: 3px solid orange;
+  color: black;
+}
+
+.time-label {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-left: -35px;
+}
+
+@media (max-width: 978px) {
+  .time-label {
+    margin-left: 0;
+  }
+}
+.time-label-text {
+  margin: 0;
+  margin-left: 15px;
+}
+
+a {
+  color: orange;
+  font-weight: 300;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover {
+  font-weight: 500;
+}
+
 /*# sourceMappingURL=index.css.map */
