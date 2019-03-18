@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import TopButtons from "./TopButtons";
-import EventCard from "./EventCard";
+import { EventCard } from "./components/common/EventCard";
 import { meta } from "./Content";
 
 class MainContainer extends Component {

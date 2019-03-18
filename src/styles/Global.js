@@ -10,4 +10,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     background-color: black;
   }
+
+  p {
+    margin: 0;
+    text-align: start;
+  }
 `;
