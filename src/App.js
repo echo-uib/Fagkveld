@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import MainContainer from "./MainContainer";
 import TopInfoBox from "./TopInfoBox";
-import content from "./Content";
+import { talks, workshops, meta } from "./Content";
 import { Particles } from "react-particles-js";
 
 class App extends Component {
@@ -16,8 +16,8 @@ class App extends Component {
       else return m1 - m2;
     };
 
-    content.talks.sort(comparator);
-    content.workshops.sort(comparator);
+    talks.sort(comparator);
+    workshops.sort(comparator);
 
     return (
       <div>
@@ -43,8 +43,8 @@ class App extends Component {
           className="particles"
         />
         <div className="app">
-          <TopInfoBox text={content.topText} />
-          <MainContainer data={content} />
+          <TopInfoBox text={meta.info} />
+          <MainContainer data={{ talks, workshops }} />
         </div>
       </div>
     );

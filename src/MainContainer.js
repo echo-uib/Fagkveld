@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import TopButtons from "./TopButtons";
 import EventCard from "./EventCard";
-import content from "./Content";
+import { meta } from "./Content";
 
 class MainContainer extends Component {
   constructor(props) {
@@ -30,7 +30,7 @@ class MainContainer extends Component {
         />
 
         {eventCards}
-        <p className="event-card-author credits-text">{content.meta.madeBy}</p>
+        <p className="event-card-author credits-text">{meta.madeBy}</p>
       </div>
     );
   }
