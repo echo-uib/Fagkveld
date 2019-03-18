@@ -1,9 +1,23 @@
 import React, { Component } from "react";
 import { Normalize } from "styled-normalize";
+import { GlobalStyle } from "./styles/Global";
+import styled from "styled-components";
 import MainContainer from "./MainContainer";
 import { TopInfo } from "./containers/TopInfo";
 import { talks, workshops } from "./Content";
 import { Particles } from "react-particles-js";
+
+const Wrapper = styled.div`
+  position: relative;
+  text-align: center;
+  padding-left: 15%;
+  padding-right: 15%;
+
+  @media (max-width: 978px) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+`;
 
 class App extends Component {
   render() {
@@ -21,8 +35,9 @@ class App extends Component {
     workshops.sort(comparator);
 
     return (
-      <div>
+      <>
         <Normalize />
+        <GlobalStyle />
         <Particles
           params={{
             particles: {
@@ -44,11 +59,11 @@ class App extends Component {
           }}
           className="particles"
         />
-        <div className="app">
+        <Wrapper>
           <TopInfo />
           <MainContainer data={{ talks, workshops }} />
-        </div>
-      </div>
+        </Wrapper>
+      </>
     );
   }
 }

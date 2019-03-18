@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TimeLabel from "./TimeLabel";
+import TimeLabel from "./components/common/TimeLabel";
 import SignUpLink from "./components/SignUpLink";
 
 class EventCard extends Component {
