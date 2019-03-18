@@ -1,10 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
-@import url(
-  http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,
-  300,
-  400
-);
+@import url("http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,300,400");
 .app {
+  position: relative;
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
@@ -29,16 +26,16 @@ body {
 }
 
 .top-info-box {
-  background-color: black;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), #000, rgba(0, 0, 0, 0.2));
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
-
 .top-info-box > p {
   width: 80%;
   margin-top: 0;
+  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -60,29 +57,23 @@ h1 {
   font-weight: 200;
   font-size: 18px;
   margin-top: 0;
-  margin-bottom: 0;
-  color: white;
+  color: orange;
 }
 
 .top-info {
   margin-top: 30px;
-  margin-bottom: 2.5em;
   color: #c6c6c6;
 }
 
-.attend-button {
-  margin-bottom: 1em;
-  color: orange;
-  cursor: pointer;
-
-  font-size: 1.2em;
-  font-weight: 200;
-  text-decoration: underline;
-  text-underline-position: under;
+.particles {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
 }
-
-.attend-button:hover {
-  font-weight: 400;
+.particles canvas {
+  position: absolute;
 }
 
 /*# sourceMappingURL=index.css.map */

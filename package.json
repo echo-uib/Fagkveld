@@ -8,6 +8,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-fontawesome": "^1.6.1",
+    "react-particles-js": "^2.5.1",
     "react-scripts": "2.1.8",
     "react-text-truncate": "^0.14.0",
     "sass": "^1.17.3"

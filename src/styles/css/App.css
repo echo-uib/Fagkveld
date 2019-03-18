@@ -1,9 +1,6 @@
-@import url(
-  http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,
-  300,
-  400
-);
+@import url("http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,300,400");
 .app {
+  position: relative;
   text-align: center;
   padding-left: 15%;
   padding-right: 15%;
@@ -28,7 +25,7 @@ body {
 }
 
 .top-info-box {
-  background-color: black;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), #000, rgba(0, 0, 0, 0.2));
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,6 +62,17 @@ h1 {
 .top-info {
   margin-top: 30px;
   color: #c6c6c6;
+}
+
+.particles {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.particles canvas {
+  position: absolute;
 }
 
 /*# sourceMappingURL=App.css.map */
