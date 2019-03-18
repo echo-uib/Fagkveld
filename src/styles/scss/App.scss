@@ -1,8 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,300,400);
+@import url(
+  http://fonts.googleapis.com/css?family=Lato|Palanquin|Raleway:200,
+  300,
+  400
+);
 
-$lato: 'Lato', sans-serif;
-$palanquin: 'Palanquin', sans-serif;
-$raleway: 'Raleway', sans-serif;
+$lato: "Lato", sans-serif;
+$palanquin: "Palanquin", sans-serif;
+$raleway: "Raleway", sans-serif;
 
 .app {
   text-align: center;
@@ -69,5 +73,5 @@ h1 {
 
 .top-info {
   margin-top: 30px;
-  color: #C6C6C6;
+  color: #c6c6c6;
 }
