@@ -34,7 +34,7 @@ export const EventCard = props => {
   let icon =
     title === "Pause med mat og drikke"
       ? "cutlery"
-      : type === "talks"
+      : type === "talk"
       ? "comments"
       : "cogs";
 
