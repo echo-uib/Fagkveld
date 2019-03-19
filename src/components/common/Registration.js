@@ -3,6 +3,13 @@ import styled from "styled-components";
 
 const SignUp = styled.a`
   font-size: 15px;
+  color: orange;
+  font-weight: 300;
+  text-decoration: underline;
+
+  &:hover {
+    font-weight: 500;
+  }
 `;
 
 export const SignUpLink = ({ link, text }) => {
