@@ -3,7 +3,7 @@ import { Normalize } from "styled-normalize";
 import { GlobalStyle } from "./styles/Global";
 import { BackgroundParticles } from "./containers/Particles";
 import styled from "styled-components";
-import MainContainer from "./MainContainer";
+import { MainContainer } from "./containers/MainContainer";
 import { TopInfo } from "./containers/TopInfo";
 import { talks, workshops } from "./Content";
 import { comparator } from "./utils/CompareEvent";
@@ -26,7 +26,7 @@ class App extends Component {
     workshops.sort(comparator);
 
     return (
-      <>
+      <React.StrictMode>
         <Normalize />
         <GlobalStyle />
         <BackgroundParticles />
@@ -34,7 +34,7 @@ class App extends Component {
           <TopInfo />
           <MainContainer data={{ talks, workshops }} />
         </Wrapper>
-      </>
+      </React.StrictMode>
     );
   }
 }
