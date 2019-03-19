@@ -4,7 +4,7 @@ import { GlobalStyle } from "./styles/Global";
 import { BackgroundParticles } from "./containers/Particles";
 import styled from "styled-components";
 import { MainContainer } from "./containers/MainContainer";
-import { TopInfo } from "./containers/TopInfo";
+import { TopInfo } from "./containers/Header";
 import { talks, workshops } from "./Content";
 import { comparator } from "./utils/CompareEvent";
 

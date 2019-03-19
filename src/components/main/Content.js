@@ -1,10 +1,15 @@
 import React from "react";
+import styled from "styled-components";
 import { talks, workshops, meta } from "../../Content";
 import { comparator } from "../../utils/CompareEvent";
 import { EventCard } from "../common/EventCard";
 
+const HomeWrapper = styled.p`
+  margin-top: 40px;
+`;
+
 export const Home = () => {
-  return meta.info;
+  return <HomeWrapper>{meta.info}</HomeWrapper>;
 };
 
 export const Talks = () => {
