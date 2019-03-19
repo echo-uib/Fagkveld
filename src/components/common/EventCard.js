@@ -1,10 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import { TimeLabel } from "./TimeLabel";
-import { SignUpLink } from "./Registration";
+import { SignUpLink } from "./SignUp";
 
 const EventCardWrapper = styled.div`
-  width: 100%;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -22,7 +21,7 @@ const EventCardAuthor = styled.p`
   font-size: 14px;
   color: gray;
   line-height: 1.375;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 4px;
 `;
 

@@ -5,8 +5,6 @@ import { BackgroundParticles } from "./containers/Particles";
 import styled from "styled-components";
 import { MainContainer } from "./containers/MainContainer";
 import { TopInfo } from "./containers/Header";
-import { talks, workshops } from "./Content";
-import { comparator } from "./utils/CompareEvent";
 
 const Wrapper = styled.div`
   position: relative;
@@ -22,9 +20,6 @@ const Wrapper = styled.div`
 
 class App extends Component {
   render() {
-    talks.sort(comparator);
-    workshops.sort(comparator);
-
     return (
       <React.StrictMode>
         <Normalize />
@@ -32,7 +27,7 @@ class App extends Component {
         <BackgroundParticles />
         <Wrapper>
           <TopInfo />
-          <MainContainer data={{ talks, workshops }} />
+          <MainContainer />
         </Wrapper>
       </React.StrictMode>
     );
