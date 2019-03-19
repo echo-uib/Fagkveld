@@ -4,12 +4,10 @@ import { Link } from "@reach/router";
 export const ButtonsWrapper = styled.nav`
   width: 100%;
   color: #777777;
-  padding-left: 20%;
-  padding-right: 20%;
   font-size: 25px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  place-content: center space-between;
 
   @media (max-width: 978px) {
     padding-left: 0;
@@ -20,10 +18,8 @@ export const ButtonsWrapper = styled.nav`
   @media (max-width: 450px) {
     font-size: 18px;
     flex-direction: column;
-  }
-
-  @media (max-width: 350px) {
-    font-size: 16px;
+    align-items: center;
+    justify-content: center;
   }
 `;
 
@@ -35,6 +31,7 @@ export const ButtonLink = styled(Link)`
   text-decoration: none;
 
   @media (max-width: 450px) {
+    padding-top: 10px;
     width: 48%;
   }
 
@@ -44,7 +41,7 @@ export const ButtonLink = styled(Link)`
     color: black;
   }
 
-  [aria-current] {
+  &[aria-current] {
     border-bottom: 3px solid orange;
     color: black;
   }
