@@ -25,9 +25,7 @@ const EventCardAuthor = styled.p`
   margin-bottom: 4px;
 `;
 
-export const EventCard = props => {
-  const event = props.event;
-  const type = props.type;
+export const EventCard = ({ event, type }) => {
   const { title, time, speakers, info } = event;
 
   let icon =

@@ -10,8 +10,6 @@ const CreditsWrapper = styled.p`
   line-height: 1.375;
 `;
 
-export const Credits = props => {
-  const { text } = props;
-
+export const Credits = ({ text }) => {
   return <CreditsWrapper>{text}</CreditsWrapper>;
 };

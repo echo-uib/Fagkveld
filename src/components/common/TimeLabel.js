@@ -18,14 +18,13 @@ const TimeText = styled.p`
   margin-left: 15px;
 `;
 
-export const TimeLabel = props => {
+export const TimeLabel = ({ icon, time }) => {
   const iconStyle = { lineHeight: "1.30em", fontSize: "1.30em" };
-  const icon = <FontAwesome name={props.icon} style={iconStyle} />;
 
   return (
     <TimeWrapper>
-      {icon}
-      <TimeText>{props.time}</TimeText>
+      <FontAwesome name={icon} style={iconStyle} />
+      <TimeText>{time}</TimeText>
     </TimeWrapper>
   );
 };
