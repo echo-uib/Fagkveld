@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   p {
-    margin: 0;
+    margin-top: 0;
     text-align: start;
   }
 `;
