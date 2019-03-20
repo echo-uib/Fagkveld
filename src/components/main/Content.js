@@ -4,6 +4,7 @@ import { talks, workshops, meta } from "../../Content";
 import { comparator } from "../../utils/CompareEvent";
 import { EventCard } from "../common/EventCard";
 import { SignUpLink } from "../common/SignUp";
+import { Companies } from "./Company";
 
 const HomeWrapper = styled.p`
   margin-top: 40px;
@@ -11,25 +12,28 @@ const HomeWrapper = styled.p`
 
 export const Home = () => {
   return (
-    <HomeWrapper>
-      {meta.info}
-      <br />
-      <SignUpLink
-        link={meta.registration.uib.link}
-        text={meta.registration.uib.text}
-      />
-      <br />
-      <SignUpLink
-        link={meta.registration.hvl.link}
-        text={meta.registration.hvl.text}
-      />
-      <br />
-      <SignUpLink
-        link={meta.registration.fim.link}
-        text={meta.registration.fim.text}
-      />
-      <br />
-    </HomeWrapper>
+    <>
+      <HomeWrapper>
+        {meta.info}
+        <br />
+        <SignUpLink
+          link={meta.registration.uib.link}
+          text={meta.registration.uib.text}
+        />
+        <br />
+        <SignUpLink
+          link={meta.registration.hvl.link}
+          text={meta.registration.hvl.text}
+        />
+        <br />
+        <SignUpLink
+          link={meta.registration.fim.link}
+          text={meta.registration.fim.text}
+        />
+        <br />
+      </HomeWrapper>
+      <Companies />
+    </>
   );
 };
 
