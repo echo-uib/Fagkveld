@@ -107,7 +107,8 @@ export const workshops = [
   {
     title: "Hololens Workshop",
     speakers: "Gry, Bouvet",
-    info: "TBA",
+    info:
+      "This workshop will give a hands-on introduction for developing application for HoloLens (Mixed Reality) in Unity. We will set up a Unity project for Mixed Reality and learn how to utilize the Mixed Reality Toolkit to create an application. REQUIREMENTS: A developer laptop with pre-installed tools: Updated Windows 9 with developer mode turned on, Visual Studio, Unity, Windows 10 SDK, HoloLens emulator",
     time: "17.00 - 18.30",
     link: "#"
   },
@@ -178,12 +179,12 @@ export const talks = [
   {
     title: "Clean Code",
     speakers: "Monica Køller, Computas",
-    info: "TBA",
+    info: `Å skrive bra kode er en kunst, og det er noe som tar både tid og krefter. I denne presentasjonen skal vi ta for oss noen sitater fra boken Clean Code - A Handbook of Agile Software Craftsmanship av Robert C. "Uncle Bob" Matrin, deretter se på noen konkrete tiltak for å skrive bedre kode. Det vil bli vist noen små eksempler i java, men det blir på et nivå som passer utviklere i andre språk også.`,
     time: "19.30 - 19.50"
   },
   {
     title: "Vil du jobbe med data?",
-    speakers: "Didrik Finnøy, Data Scientist hos Atea",
+    speakers: "Didrik Finnøy, Atea",
     info:
       "Data er den nye elektrisiteten, den nye oljen, og kanskje den mest spennende karriereretningen man kan velge i disse dager. Foredraget gir innsikt i hvordan det er å jobbe med data i Bergen / Norge, og  hvordan man skiller seg ut når man søker data - relaterte jobber. Du får høre litt om hva slags arbeid som venter deg, og hva som kreves for å lykkes. Didrik Finnøy, Data Scientist hos Atea, studerte 'feil' fag på universitetet, og har kjempet seg inn i data bransjen gjennom kurs, bøker, og personlige prosjekter. I dag jobber han som konsulent, og hjelper Atea sine kunder med å utvinne verdi fra dataen de forvalter.",
     time: "19.50 - 20.10"
@@ -199,7 +200,7 @@ export const talks = [
     title:
       "Hva skjer når en bruker klikker på feil lenke og det sitter en avansert trusselaktør i andre enden?",
     speakers: "Martin B. Nordby, mnemonic",
-    info: "TBA",
+    info: "Vi følger et målrettet angrep, steg for steg.",
     time: "20.30 - 21.00"
   }
 ];
