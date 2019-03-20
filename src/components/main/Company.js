@@ -29,7 +29,7 @@ const Thanks = styled.h2`
 export const Companies = () => {
   let companies = shuffle(_companies);
   const companyList = companies.map(c => (
-    <Company>
+    <Company key={c.name}>
       <a href={c.link} target="_blank" rel="noopener noreferrer" alt={c.name}>
         <ReactSVG src={c.logo} />
       </a>

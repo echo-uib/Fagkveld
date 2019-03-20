@@ -12,6 +12,8 @@ const MainWrapper = styled.div`
   align-items: center;
   border-radius: 5px;
 
+  font-family: "Roboto Slab", serif;
+
   background-color: white;
   color: black;
 
