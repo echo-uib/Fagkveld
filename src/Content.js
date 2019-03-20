@@ -20,6 +20,75 @@ export const meta = {
     }
   }
 };
+
+export const companies = [
+  {
+    name: "Netlight",
+    logo: "assets/netlight.svg",
+    link: "https://www.netlight.com/"
+  },
+  {
+    name: "Kantega",
+    logo: "assets/kantega.svg",
+    link: "https://www.kantega.no/"
+  },
+  {
+    name: "Atea",
+    logo: "assets/atea.svg",
+    link: "https://www.atea.no/"
+  },
+  {
+    name: "Knowit",
+    logo: "assets/knowit.svg",
+    link: "https://www.knowit.no/"
+  },
+  {
+    name: "Scout Gaming Group",
+    logo: "assets/scoutgaming.svg",
+    link: "https://scoutgaminggroup.com/"
+  },
+  {
+    name: "Computas",
+    logo: "assets/computas.svg",
+    link: "https://computas.com/"
+  },
+  {
+    name: "Tieto",
+    logo: "assets/tieto.svg",
+    link: "https://www.tieto.com/no/"
+  },
+  {
+    name: "Vimond",
+    logo: "assets/vimond.svg",
+    link: "https://vimond.com/"
+  },
+  {
+    name: "Mnemonic",
+    logo: "assets/mnemonic.svg",
+    link: "https://www.mnemonic.no/"
+  },
+  {
+    name: "Ambita",
+    logo: "assets/ambita.svg",
+    link: "https://www.ambita.com/"
+  },
+  {
+    name: "Bouvet",
+    logo: "assets/bouvet.svg",
+    link: "https://www.bouvet.no/"
+  },
+  {
+    name: "Høgskulen på Vestlandet",
+    logo: "assets/hvl.svg",
+    link: "https://hvl.no/"
+  },
+  {
+    name: "StormGeo",
+    logo: "assets/stormgeo.svg",
+    link: "http://www.stormgeo.com/"
+  }
+];
+
 export const workshops = [
   {
     title: "Pause med mat og drikke",
