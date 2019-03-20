@@ -5,7 +5,6 @@
   "homepage": "https://fagkveld.it",
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "gh-pages": "^2.0.1",
     "lodash.shuffle": "^4.2.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -21,6 +20,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build && cp build/index.html build/404.html",
+    "build:svg": "svgo public/assets/*.svg",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -32,5 +32,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.0.1",
+    "svgo": "^1.2.0"
+  }
 }
