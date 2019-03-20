@@ -101,7 +101,7 @@ export const workshops = [
     speakers: "Adrian Moksness & Margrethe Johnsen, Netlight",
     info:
       "Hvordan bygger man en god CV for å få spennende muligheter etter studiet? Adrian og Margrethe i Netlight gir et innblikk i karrieremulighetene i Netlight, hva vi anser som en «god CV» og hvordan en kan jobbe med å bygge CVen sin gjennom erfaringer underveis i studietiden.",
-    time: "17.00 - 18.30",
+    time: "17.15 - 18.45",
     link: "#"
   },
   {
@@ -109,7 +109,7 @@ export const workshops = [
     speakers: "Gry, Bouvet",
     info:
       "This workshop will give a hands-on introduction for developing application for HoloLens (Mixed Reality) in Unity. We will set up a Unity project for Mixed Reality and learn how to utilize the Mixed Reality Toolkit to create an application. REQUIREMENTS: A developer laptop with pre-installed tools: Updated Windows 9 with developer mode turned on, Visual Studio, Unity, Windows 10 SDK, HoloLens emulator",
-    time: "17.00 - 18.30",
+    time: "17.15 - 18.45",
     link: "#"
   },
   {
