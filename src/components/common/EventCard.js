@@ -30,7 +30,7 @@ export const EventCard = ({ event, type }) => {
 
   let icon =
     title === "Pause med mat og drikke"
-      ? "cutlery"
+      ? "utensils"
       : type === "talk"
       ? "comments"
       : "cogs";

@@ -2,7 +2,7 @@ export const meta = {
   name: "Fagkveld",
   date: "29. mars kl. 17.00 | Media City Bergen",
   info:
-    "Velkommen til fagkveld 2019 for IT-studenter i Bergen! echo – Fagutvalget for informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! 13 forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser, så meld deg på nå!",
+    "Velkommen til fagkveld 2019 for IT-studenter i Bergen! echo – Fagutvalget for informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! 12 forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser, så meld deg på nå!",
   madeBy:
     "Laget av Ragnhild Aalvik og Kristian Rosland, oppdatert av Sondre Nilsen",
   registration: {
@@ -122,6 +122,12 @@ export const workshops = [
       "Introduksjon til Docker. Her lærer en å bygge og drifte containere med Docker. Anbefales for studenten som vil ta sine applikasjoner til det neste nivå med støtte for skyen. Et VirtualBox diskbilde med alt en trenger for å gjennomføre workshoppen vil bli delt ut. Enkel navigering og bruk av kommandolinje/bash anses som forhåndskunnskaper. Alle som deltar bør ha installert VirtualBox på forhånd.",
     time: "19.30 - 21.00"
     // link: "#"
+  },
+  {
+    title: "Mingling",
+    speakers: "",
+    info: "",
+    time: "21.00 - 23.00"
   }
 ];
 
@@ -199,5 +205,11 @@ export const talks = [
     speakers: "Martin B. Nordby, mnemonic",
     info: "Vi følger et målrettet angrep, steg for steg.",
     time: "20.20 - 21.00"
+  },
+  {
+    title: "Mingling",
+    speakers: "",
+    info: "",
+    time: "21.00 - 23.00"
   }
 ];
