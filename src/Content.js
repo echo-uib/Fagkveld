@@ -92,6 +92,18 @@ export const workshops = [
     time: "19.00 - 19.30"
   },
   {
+    title: "Pause",
+    speakers: "",
+    info: "",
+    time: "18.00 - 18.05"
+  },
+  {
+    title: "Pause",
+    speakers: "",
+    info: "",
+    time: "20.20 - 20.25"
+  },
+  {
     title: "CV-Workshop",
     speakers: "Adrian Moksness & Margrethe Johnsen, Netlight",
     info:
@@ -101,7 +113,7 @@ export const workshops = [
   },
   {
     title: "Hololens Workshop",
-    speakers: "Gry, Bouvet",
+    speakers: "Gry Nagel, Bouvet",
     info:
       "This workshop will give a hands-on introduction for developing application for HoloLens (Mixed Reality) in Unity. We will set up a Unity project for Mixed Reality and learn how to utilize the Mixed Reality Toolkit to create an application. REQUIREMENTS: A developer laptop with pre-installed tools: Updated Windows 9 with developer mode turned on, Visual Studio, Unity, Windows 10 SDK, HoloLens emulator",
     time: "17.15 - 18.45"
@@ -145,6 +157,18 @@ export const talks = [
     time: "17.00 - 17.10"
   },
   {
+    title: "Pause",
+    speakers: "",
+    info: "",
+    time: "18.00 - 18.05"
+  },
+  {
+    title: "Pause",
+    speakers: "",
+    info: "",
+    time: "20.20 - 20.25"
+  },
+  {
     title: "Moderne teknikker for språkanalyse",
     speakers: "Alexander Lundervold, HVL",
     info:
@@ -181,7 +205,7 @@ export const talks = [
   // },
   {
     title: "Clean Code",
-    speakers: "Monica Køller, Computas",
+    speakers: "Monika Køller, Computas",
     info: `Å skrive bra kode er en kunst, og det er noe som tar både tid og krefter. I denne presentasjonen skal vi ta for oss noen sitater fra boken Clean Code - A Handbook of Agile Software Craftsmanship av Robert C. "Uncle Bob" Matrin, deretter se på noen konkrete tiltak for å skrive bedre kode. Det vil bli vist noen små eksempler i java, men det blir på et nivå som passer utviklere i andre språk også.`,
     time: "18.40 - 19.00"
   },
