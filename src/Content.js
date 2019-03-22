@@ -2,21 +2,21 @@ export const meta = {
   name: "Fagkveld",
   date: "29. mars kl. 17.00 | Media City Bergen",
   info:
-    "Velkommen til fagkveld 2019 for IT-studenter i Bergen! echo ved Institutt for Informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! 13 forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser på workshops, så meld deg på nå!",
+    "Velkommen til fagkveld 2019 for IT-studenter i Bergen! echo – Fagutvalget for informatikk, Fagutvalget Infomedia og Linjeforeningen Root inviterer til en kveld fullstappet med foredrag, workshops, 🍕og 🍻! 13 forskjellige bedrifter har bidratt med sine beste foredragsholdere for å gi oss et innblikk i problemene og teknologiene de jobber med til daglig. Det vil bli parallelle spor med foredrag og workshops, så det skal være mulig å finne noe for alle, uansett nivå. Husk at det er begrenset antall plasser, så meld deg på nå!",
   madeBy:
     "Laget av Ragnhild Aalvik og Kristian Rosland, oppdatert av Sondre Nilsen",
   registration: {
     uib: {
-      text: "Påmelding UiB",
-      link: "#"
+      text: "Påmelding informatikk",
+      link: "https://forms.gle/GQFkoYWKZ4td8UnE8"
     },
     hvl: {
       text: "Påmelding HVL",
-      link: "#"
+      link: " https://goo.gl/forms/fCYFFtt23DUsLE223"
     },
     fim: {
       text: "Påmelding InfoMedia",
-      link: "#"
+      link: "https://goo.gl/forms/KjpsKkuHRvWqj4Sx1"
     }
   }
 };
@@ -96,34 +96,35 @@ export const workshops = [
     speakers: "Adrian Moksness & Margrethe Johnsen, Netlight",
     info:
       "Hvordan bygger man en god CV for å få spennende muligheter etter studiet? Adrian og Margrethe i Netlight gir et innblikk i karrieremulighetene i Netlight, hva vi anser som en «god CV» og hvordan en kan jobbe med å bygge CVen sin gjennom erfaringer underveis i studietiden.",
-    time: "17.15 - 18.45",
-    link: "#"
+    time: "17.15 - 18.45"
+    // link: "#"
   },
   {
     title: "Hololens Workshop",
     speakers: "Gry, Bouvet",
     info:
       "This workshop will give a hands-on introduction for developing application for HoloLens (Mixed Reality) in Unity. We will set up a Unity project for Mixed Reality and learn how to utilize the Mixed Reality Toolkit to create an application. REQUIREMENTS: A developer laptop with pre-installed tools: Updated Windows 9 with developer mode turned on, Visual Studio, Unity, Windows 10 SDK, HoloLens emulator",
-    time: "17.15 - 18.45",
-    link: "#"
+    time: "17.15 - 18.45"
+    // link: "#"
   },
   {
     title: "Visualisering av data i kart med Leaflet",
     speakers: "Anders Linge Olsvik Breilid, Kantega",
     info:
       "I denne workshopen vil deltakerne lære å bruke biblioteket Leaflet for kartvisning i HTML med Javascript, samt lære hvordan man kan hente data fra et åpent API og visualisere dataene i kartet. Det vil være fokus på å bruke dokumentasjon aktivt for å forstå hvordan biblioteket og API-et fungerer.",
-    time: "19.30 - 21.00",
-    link: "#"
+    time: "19.30 - 21.00"
+    // link: "#"
   },
   {
     title: "Docker 101",
     speakers: "Knowit",
     info:
       "Introduksjon til Docker. Her lærer en å bygge og drifte containere med Docker. Anbefales for studenten som vil ta sine applikasjoner til det neste nivå med støtte for skyen. Et VirtualBox diskbilde med alt en trenger for å gjennomføre workshoppen vil bli delt ut. Enkel navigering og bruk av kommandolinje/bash anses som forhåndskunnskaper. Alle som deltar bør ha installert VirtualBox på forhånd.",
-    time: "19.30 - 21.00",
-    link: "#"
+    time: "19.30 - 21.00"
+    // link: "#"
   }
 ];
+
 export const talks = [
   {
     title: "Pause med mat og drikke",
@@ -166,37 +167,37 @@ export const talks = [
       "Hvordan fungerer git? Hva er egentlig en 'commit', og hva er en 'branch'? Vi ser nærmere på hvordan enkelte git-kommandoer påvirker commit-historikken til et repository. Foredraget egner seg for folk som allerede bruker git, men som ikke har peiling på hva de holder på med",
     time: "18.20 - 18.40"
   },
-  {
-    title: "TBA",
-    speakers: "Knowit",
-    info: "TBA",
-    time: "18.40 - 19.00"
-  },
+  // {
+  //   title: "Åpen",
+  //   speakers: "",
+  //   info: "",
+  //   time: "19.30 - 19.50"
+  // },
   {
     title: "Clean Code",
     speakers: "Monica Køller, Computas",
     info: `Å skrive bra kode er en kunst, og det er noe som tar både tid og krefter. I denne presentasjonen skal vi ta for oss noen sitater fra boken Clean Code - A Handbook of Agile Software Craftsmanship av Robert C. "Uncle Bob" Matrin, deretter se på noen konkrete tiltak for å skrive bedre kode. Det vil bli vist noen små eksempler i java, men det blir på et nivå som passer utviklere i andre språk også.`,
-    time: "19.30 - 19.50"
+    time: "18.40 - 19.00"
   },
   {
     title: "Vil du jobbe med data?",
     speakers: "Didrik Finnøy, Atea",
     info:
       "Data er den nye elektrisiteten, den nye oljen, og kanskje den mest spennende karriereretningen man kan velge i disse dager. Foredraget gir innsikt i hvordan det er å jobbe med data i Bergen / Norge, og  hvordan man skiller seg ut når man søker data - relaterte jobber. Du får høre litt om hva slags arbeid som venter deg, og hva som kreves for å lykkes. Didrik Finnøy, Data Scientist hos Atea, studerte 'feil' fag på universitetet, og har kjempet seg inn i data bransjen gjennom kurs, bøker, og personlige prosjekter. I dag jobber han som konsulent, og hjelper Atea sine kunder med å utvinne verdi fra dataen de forvalter.",
-    time: "19.50 - 20.10"
+    time: "19.40 - 20.00"
   },
   {
     title: "Hvordan ta i bruk web plattformen for bedre kodedeling?",
     speakers: "Øystein Østebø Olsen og Torbjørn Angeltveit, Scout Gaming",
     info:
       "Custom elements er en web standard som endelig beskriver hvordan rammeverk kan snakke sammen og en viktig primitiv for å endelig kunne fokusere på å lage gode UI elementer. En introduksjon til hva det er og hvordan det hjelper rammeverk å snakke samme språk.",
-    time: "20.10 - 20.30"
+    time: "20.00 - 20.20"
   },
   {
     title:
       "Hva skjer når en bruker klikker på feil lenke og det sitter en avansert trusselaktør i andre enden?",
     speakers: "Martin B. Nordby, mnemonic",
     info: "Vi følger et målrettet angrep, steg for steg.",
-    time: "20.30 - 21.00"
+    time: "20.20 - 21.00"
   }
 ];
