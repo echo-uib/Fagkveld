@@ -81,11 +81,6 @@ export const companies = [
     name: "Høgskulen på Vestlandet",
     logo: "assets/hvl.svg",
     link: "https://hvl.no/"
-  },
-  {
-    name: "StormGeo",
-    logo: "assets/stormgeo.svg",
-    link: "http://www.stormgeo.com/"
   }
 ];
 
@@ -121,9 +116,10 @@ export const workshops = [
     link: "#"
   },
   {
-    title: "TBA",
-    speakers: "StormGeo",
-    info: "TBA",
+    title: "Docker 101",
+    speakers: "Knowit",
+    info:
+      "Introduksjon til Docker. Her lærer en å bygge og drifte containere med Docker. Anbefales for studenten som vil ta sine applikasjoner til det neste nivå med støtte for skyen. Et VirtualBox diskbilde med alt en trenger for å gjennomføre workshoppen vil bli delt ut. Enkel navigering og bruk av kommandolinje/bash anses som forhåndskunnskaper. Alle som deltar bør ha installert VirtualBox på forhånd.",
     time: "19.30 - 21.00",
     link: "#"
   }
@@ -145,7 +141,7 @@ export const talks = [
     title: "Moderne teknikker for språkanalyse",
     speakers: "Alexander Lundervold, HVL",
     info:
-      "Moderne teknikker for språkanalyse (deep learning), samt fortelle litt generelt om hvordan ML/AI brukes innen helsevesenet.",
+      "De fleste vet at deep learning har revolusjonert en rekke områder knyttet til «kunstig intelligens» i løpet av de siste åtte år. Selvkjørende biler, Alpha Zero, AlphaStar, OpenAI Five–alle basert på deep learning–har fått stor oppmerksomhet. Mindre kjent er hvordan deep learning i fjor skapte en revolusjon innen naturlig språkanalyse: hvordan datamaskiner kan forstå og prosessere menneske-språk. En revolusjon som fortsatt pågår. I dette foredraget skal vi angripe et medisinsk tekst-analyse-problem ved å bygge et state-of-the-art deep learning system.",
     time: "17.10 - 17.40"
   },
   {
