@@ -92,18 +92,6 @@ export const workshops = [
     time: "19.00 - 19.30"
   },
   {
-    title: "Pause",
-    speakers: "",
-    info: "",
-    time: "18.00 - 18.05"
-  },
-  {
-    title: "Pause",
-    speakers: "",
-    info: "",
-    time: "20.20 - 20.25"
-  },
-  {
     title: "CV-Workshop",
     speakers: "Adrian Moksness & Margrethe Johnsen, Netlight",
     info:
@@ -115,7 +103,7 @@ export const workshops = [
     title: "Hololens Workshop",
     speakers: "Gry Nagel, Bouvet",
     info:
-      "This workshop will give a hands-on introduction for developing application for HoloLens (Mixed Reality) in Unity. We will set up a Unity project for Mixed Reality and learn how to utilize the Mixed Reality Toolkit to create an application. REQUIREMENTS: A developer laptop with pre-installed tools: Updated Windows 9 with developer mode turned on, Visual Studio, Unity, Windows 10 SDK, HoloLens emulator",
+      "This workshop will give a hands-on introduction for developing application for HoloLens (Mixed Reality) in Unity. We will set up a Unity project for Mixed Reality and learn how to utilize the Mixed Reality Toolkit to create an application. REQUIREMENTS: A developer laptop with pre-installed tools: Updated Windows 10 with developer mode turned on, Visual Studio, Unity, Windows 10 SDK, HoloLens emulator",
     time: "17.15 - 18.45"
     // link: "#"
   },
@@ -155,18 +143,6 @@ export const talks = [
     speakers: "",
     info: "",
     time: "17.00 - 17.10"
-  },
-  {
-    title: "Pause",
-    speakers: "",
-    info: "",
-    time: "18.00 - 18.05"
-  },
-  {
-    title: "Pause",
-    speakers: "",
-    info: "",
-    time: "20.20 - 20.25"
   },
   {
     title: "Moderne teknikker for språkanalyse",
@@ -214,21 +190,21 @@ export const talks = [
     speakers: "Didrik Finnøy, Atea",
     info:
       "Data er den nye elektrisiteten, den nye oljen, og kanskje den mest spennende karriereretningen man kan velge i disse dager. Foredraget gir innsikt i hvordan det er å jobbe med data i Bergen / Norge, og  hvordan man skiller seg ut når man søker data - relaterte jobber. Du får høre litt om hva slags arbeid som venter deg, og hva som kreves for å lykkes. Didrik Finnøy, Data Scientist hos Atea, studerte 'feil' fag på universitetet, og har kjempet seg inn i data bransjen gjennom kurs, bøker, og personlige prosjekter. I dag jobber han som konsulent, og hjelper Atea sine kunder med å utvinne verdi fra dataen de forvalter.",
-    time: "19.40 - 20.00"
+    time: "19.30 - 19.50"
   },
   {
     title: "Hvordan ta i bruk web plattformen for bedre kodedeling?",
     speakers: "Øystein Østebø Olsen og Torbjørn Angeltveit, Scout Gaming",
     info:
       "Custom elements er en web standard som endelig beskriver hvordan rammeverk kan snakke sammen og en viktig primitiv for å endelig kunne fokusere på å lage gode UI elementer. En introduksjon til hva det er og hvordan det hjelper rammeverk å snakke samme språk.",
-    time: "20.00 - 20.20"
+    time: "19.50 - 20.10"
   },
   {
-    title:
-      "Hva skjer når en bruker klikker på feil lenke og det sitter en avansert trusselaktør i andre enden?",
+    title: "Don’t Push The Red Button",
     speakers: "Martin B. Nordby, mnemonic",
-    info: "Vi følger et målrettet angrep, steg for steg.",
-    time: "20.20 - 21.00"
+    info:
+      "Avanserte trusselaktører kan bruke lang tid på å planlegge et angrep. Hva skjer når en ansatt trykker en tilsynelatende uskyldig lenke i en epost skreddersydd av angripere for å se troverdig ut? Vi følger et målrettet angrep, steg for steg. En ekte thriller!",
+    time: "20.10 - 20.50"
   },
   {
     title: "Mingling",
