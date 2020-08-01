@@ -1,8 +1,8 @@
-import React from "react";
-import ReactSVG from "react-svg";
-import styled from "styled-components";
-import { companies as _companies } from "../../Content";
-import shuffle from "lodash.shuffle";
+import shuffle from 'lodash.shuffle';
+import React from 'react';
+import { ReactSVG } from 'react-svg';
+import styled from 'styled-components';
+import { companies as _companies } from '../../Content';
 
 const CompanyWrapper = styled.div`
   display: flex;
@@ -28,7 +28,7 @@ const Thanks = styled.h2`
 
 export const Companies = () => {
   let companies = shuffle(_companies);
-  const companyList = companies.map(c => (
+  const companyList = companies.map((c) => (
     <Company key={c.name}>
       <a href={c.link} target="_blank" rel="noopener noreferrer" alt={c.name}>
         <ReactSVG src={c.logo} />

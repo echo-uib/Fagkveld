@@ -4,16 +4,16 @@
   "private": true,
   "homepage": "https://fagkveld.it",
   "dependencies": {
-    "@reach/router": "^1.2.1",
+    "@reach/router": "^1.3.4",
     "lodash.shuffle": "^4.2.0",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "react-fontawesome": "^1.6.1",
-    "react-particles-js": "^2.5.1",
-    "react-scripts": "2.1.8",
-    "react-svg": "^8.0.0",
-    "styled-components": "^4.1.3",
-    "styled-normalize": "^8.0.6"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
+    "react-particles-js": "^3.3.0",
+    "react-scripts": "3.4.1",
+    "react-svg": "^11.0.33",
+    "styled-components": "^5.1.1",
+    "styled-normalize": "^8.0.7"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -34,7 +34,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "svgo": "^1.2.0"
+    "gh-pages": "^3.1.0",
+    "svgo": "^1.3.2"
   }
 }
